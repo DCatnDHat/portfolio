@@ -4784,7 +4784,7 @@
   }
 
   .hammenuhome {
-    z-index: auto;
+    /*z-index: auto;*/
     background-image: url('../images/hamburger-menu---blue.png');
     background-position: 50%;
     background-repeat: no-repeat;
@@ -4795,7 +4795,7 @@
     height: 5vh;
     margin-left: 5%;
     margin-right: 5%;
-    display: block;
+  /*  display: block;*/
     position: relative;
   }
 
