@@ -1653,7 +1653,7 @@
   width: 33%;
   height: 25.1737%;
   margin-top: 5%;
-  margin-left: 60%;
+  margin-left: 65%;
   font-family: Dosis, Impact, sans-serif;
   font-size: 1.25rem;
   line-height: 1.78rem;
@@ -2098,7 +2098,7 @@
   width: 30%;
   height: 25.1737%;
   margin-top: 5%;
-  margin-left: 60%;
+  margin-left: 65%;
   font-family: Dosis, Impact, sans-serif;
   font-size: 1.25rem;
   line-height: 1.78rem;
@@ -5170,6 +5170,7 @@
     width: 100%;
     margin-left: 3.5%;
     padding-right: 10px;
+    left: 0%;
   }
 
   .caseprototypecell {
