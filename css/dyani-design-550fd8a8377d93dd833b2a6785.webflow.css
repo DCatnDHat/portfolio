@@ -4617,6 +4617,11 @@
     width: auto;
   }
 
+  .tabs-menu-3 {
+    width: 80%;
+    left: 15%;
+  }
+
   .productmenu {
     width: 100%;
     margin-left: 5%;
@@ -4626,8 +4631,18 @@
     margin-top: 15%;
   }
 
+  .casecell {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0%;
+    padding-right: 5%;
+  }
+
   .div-block-4 {
-    width: 170%;
+    width: 100%;
+    margin-left: 0%;
+    position: relative;
+    left: 25%;
   }
 
   .caseprototypecell {
@@ -4694,6 +4709,7 @@
   }
 
   .mobilesummarytext {
+    margin-left: 20%;
     display: block;
   }
 
@@ -4737,7 +4753,7 @@
 
   .image-27 {
     height: 30vh;
-    margin-left: 25%;
+    margin-left: 0%;
     display: block;
   }
 
@@ -4902,6 +4918,25 @@
     height: 30vh;
     display: flex;
     position: relative;
+  }
+
+  .link-block-6 {
+    margin-left: 25%;
+  }
+
+  .lightbox-link-12 {
+    margin-left: 0%;
+    position: relative;
+    left: 50%;
+  }
+
+  .cell-10 {
+    padding-left: 0%;
+  }
+
+  .link-block-7 {
+    position: relative;
+    left: 25%;
   }
 }
 
@@ -5119,7 +5154,7 @@
   }
 
   .casecell {
-    padding-left: 0%;
+    padding-left: 2%;
     padding-right: 0%;
   }
 
@@ -5132,7 +5167,7 @@
   }
 
   .div-block-4 {
-    width: 120%;
+    width: 100%;
     margin-left: 3.5%;
     padding-right: 10px;
   }
@@ -5432,6 +5467,8 @@
   .image-27 {
     margin-left: 5%;
     display: block;
+    position: relative;
+    left: 0%;
   }
 
   .newprototypeannouncebottom {
@@ -5838,6 +5875,15 @@
     height: 25vh;
     margin-top: 0%;
     margin-left: 0%;
+  }
+
+  .link-block-6 {
+    position: relative;
+    right: 15%;
+  }
+
+  .link-block-7 {
+    left: 0%;
   }
 }
 
