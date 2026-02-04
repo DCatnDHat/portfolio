@@ -1916,7 +1916,7 @@
   height: 10%;
   margin-top: 2%;
   margin-bottom: 0%;
-  font-family: Dosis, Impact, sans-serif;
+  font-family: Dosis Book, Impact, sans-serif;
   font-size: 2.125rem;
   font-weight: 700;
   line-height: 2.75rem;
@@ -4755,6 +4755,8 @@
     height: 30vh;
     margin-left: 0%;
     display: block;
+    position: relative;
+    left: 25%;
   }
 
   .slide-nav-2 {
@@ -4934,7 +4936,7 @@
     padding-left: 0%;
   }
 
-  .link-block-7 {
+  .link-block-7, .link-block-8 {
     position: relative;
     left: 25%;
   }
@@ -5883,7 +5885,7 @@
     right: 15%;
   }
 
-  .link-block-7 {
+  .link-block-7, .link-block-8 {
     left: 0%;
   }
 }
