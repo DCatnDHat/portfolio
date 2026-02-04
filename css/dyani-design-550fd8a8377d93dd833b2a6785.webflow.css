@@ -4547,6 +4547,10 @@
     display: none;
   }
 
+  .mainnavcontent {
+    margin-left: 0%;
+  }
+
   .itransform {
     margin-left: 2%;
     font-size: 4rem;
@@ -4555,6 +4559,7 @@
   .chaos {
     margin-left: 0%;
     font-size: 5rem;
+    left: -2px;
   }
 
   .clarityclear {
@@ -4962,7 +4967,7 @@
 
   .mainnavcontent {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80svh;
     margin-bottom: auto;
     margin-left: 0%;
     overflow: visible;
@@ -5466,7 +5471,7 @@
     border-radius: 0;
     width: 100%;
     height: 10vh;
-    margin-top: 50%;
+    margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
     display: flex;
