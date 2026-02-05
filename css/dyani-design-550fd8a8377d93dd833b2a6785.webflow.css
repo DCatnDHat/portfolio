@@ -1338,6 +1338,9 @@
   width: 100%;
   height: 55vh;
   margin-left: 0%;
+  position: relative;
+  top: -2%;
+  left: 25%;
 }
 
 .bold {
@@ -2868,7 +2871,11 @@
   }
 
   .prototypetopimg {
+    width: 100%;
+    height: 50vh;
     margin-left: 0%;
+    position: relative;
+    left: 50%;
   }
 
   .fullresearchlink {
@@ -2987,6 +2994,7 @@
   .kcprototypetopimg {
     height: 50vh;
     margin-left: 0%;
+    left: 25%;
   }
 
   .kcprototypebottomimg {
