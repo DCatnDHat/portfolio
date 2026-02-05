@@ -1684,7 +1684,7 @@
 .kcprototypetopimg {
   width: 100%;
   height: 60vh;
-  margin-left: 0%;
+  margin-left: -10%;
   position: relative;
 }
 
@@ -2566,7 +2566,7 @@
 
   .kcprototypetopimg {
     height: 55vh;
-    margin-left: 0%;
+    margin-left: -10%;
   }
 
   .kcprototypebottomimg {
@@ -2993,7 +2993,7 @@
 
   .kcprototypetopimg {
     height: 50vh;
-    margin-left: 0%;
+    margin-left: -10%;
     left: 25%;
   }
 
@@ -3707,7 +3707,7 @@
   .kcprototypetopimg {
     width: auto;
     height: 50vh;
-    margin-left: 0%;
+    margin-left: -10%;
   }
 
   .kcprototypebottomimg {
