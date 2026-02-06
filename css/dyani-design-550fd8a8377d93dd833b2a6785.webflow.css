@@ -1336,7 +1336,7 @@
 .prototypetopimg {
   width: 100%;
   height: 55vh;
-  margin-left: 0%;
+  margin-left: -10%;
   position: relative;
   top: -2%;
   left: 25%;
