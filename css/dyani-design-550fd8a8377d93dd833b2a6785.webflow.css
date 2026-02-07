@@ -1336,7 +1336,7 @@
 .prototypetopimg {
   width: 100%;
   height: 55vh;
-  margin-left: -10%;
+  margin-left: 0%;
   position: relative;
   top: -2%;
   left: 25%;
@@ -1574,6 +1574,7 @@
   width: 100%;
   height: 60vh;
   margin-left: 0%;
+  display: none;
 }
 
 .productmenu2 {
@@ -1920,9 +1921,9 @@
   margin-top: 2%;
   margin-bottom: 0%;
   font-family: Dosis Book, Impact, sans-serif;
-  font-size: 2.125rem;
-  font-weight: 700;
-  line-height: 2.75rem;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 2rem;
 }
 
 .mobileslideronepay {
@@ -1932,7 +1933,7 @@
 .slideronepay {
   background-color: #0f1b40;
   width: 99.9501%;
-  height: 35vh;
+  height: 50vh;
   margin-top: 5%;
   margin-bottom: 5%;
   display: block;
@@ -2402,7 +2403,7 @@
   background-color: #e8e4e499;
   border: 1px solid #0000;
   border-radius: 10px;
-  width: 75%;
+  width: 100%;
   height: 10vh;
   margin-top: 10%;
   display: flex;
@@ -2466,6 +2467,84 @@
 
 .mobilefooterhome2 {
   display: none;
+}
+
+.image-40 {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.sliderkcdesigns {
+  background-color: #0f1b40;
+  background-image: url('../images/parent-portal-mockup.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 99.9999%;
+  height: 100%;
+}
+
+.slide-6 {
+  background-color: #0f1b40;
+  background-image: url('../images/preteen-portal-open-games-mockup.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-7 {
+  background-color: #0f1b40;
+  background-image: url('../images/market-mockup.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-2 {
+  width: 99.9911%;
+  height: 60vh;
+  margin-bottom: 5%;
+}
+
+.onepaysider {
+  background-color: #0f1b40;
+  width: 100%;
+  height: 60vh;
+}
+
+.slide-8 {
+  background-image: url('../images/redesign-trends-mockup.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.slide-9 {
+  background-image: url('../images/clear-mockup.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.slide-10 {
+  background-image: url('../images/redesign-savings-mockup.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.slide-nav-6 {
+  padding-top: 5%;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2721,7 +2800,7 @@
   .slideronepay {
     background-color: #0f1b40;
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     margin-top: 5%;
     margin-bottom: 5%;
     display: block;
@@ -2886,6 +2965,14 @@
   .urlbar2 {
     width: 100%;
     height: 67%;
+  }
+
+  .sliderkcdesigns {
+    background-color: #0f1b40;
+    background-image: url('../images/parent-portal-mockup.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
@@ -3158,7 +3245,7 @@
 
   .slideronepay {
     width: 99.9236%;
-    height: 35vh;
+    height: 50vh;
     margin-top: 5%;
     margin-bottom: 5%;
     display: block;
@@ -3325,6 +3412,14 @@
 
   .back, .urlbar2 {
     font-size: 1.5rem;
+  }
+
+  .sliderkcdesigns {
+    background-color: #0f1b40;
+    background-image: url('../images/parent-portal-mockup.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
@@ -3901,7 +3996,7 @@
   }
 
   .slideronepay {
-    height: 40vh;
+    height: 60vh;
     display: block;
   }
 
@@ -4253,6 +4348,15 @@
   .urlbar2 {
     margin-top: 10px;
     font-size: 1.8rem;
+  }
+
+  .sliderkcdesigns {
+    background-color: #0f1b40;
+    background-image: url('../images/parent-portal-mockup.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0%;
   }
 }
 
@@ -4620,6 +4724,18 @@
   .text-block-13, .text-block-14, .mobilefooterhome2 {
     display: none;
   }
+
+  .slider-2 {
+    height: 50vh;
+  }
+
+  .onepaysider {
+    height: 40vh;
+  }
+
+  .slide-nav-6 {
+    padding-top: 10%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4742,6 +4858,11 @@
   }
 
   .caseprototypecell {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
     display: none;
   }
 
@@ -4849,10 +4970,11 @@
 
   .image-27 {
     height: 30vh;
+    margin-top: 0%;
     margin-left: 0%;
-    display: block;
+    display: none;
     position: relative;
-    left: 25%;
+    left: 10%;
   }
 
   .slide-nav-2 {
@@ -5043,6 +5165,22 @@
     width: 100%;
     height: 7vh;
     display: flex;
+  }
+
+  .slider-2 {
+    height: 30vh;
+    margin-bottom: 10%;
+  }
+
+  .slide-nav-5 {
+    padding-top: 5%;
+  }
+
+  .onepaysider {
+    margin-top: 0%;
+    margin-bottom: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
 }
 
@@ -5573,7 +5711,7 @@
 
   .image-27 {
     margin-left: 5%;
-    display: block;
+    display: none;
     position: relative;
     left: 0%;
   }
@@ -6013,6 +6151,14 @@
     display: flex;
     position: relative;
     top: 0%;
+  }
+
+  .slider-2 {
+    height: 30vh;
+  }
+
+  .slide-nav-5 {
+    margin-top: 25%;
   }
 }
 
