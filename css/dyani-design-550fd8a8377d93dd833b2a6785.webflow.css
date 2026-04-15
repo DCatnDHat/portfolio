@@ -1356,7 +1356,7 @@
   margin-left: 0%;
   position: relative;
   top: -2%;
-  left: 25%;
+  left: 0%;
 }
 
 .bold {
@@ -1671,7 +1671,7 @@
 .onepaynarrationtext {
   color: #bf7e96;
   width: 33%;
-  height: 25.1737%;
+  height: 35%;
   margin-top: 5%;
   margin-left: 65%;
   font-family: Dosis, Impact, sans-serif;
@@ -1984,7 +1984,7 @@
 
 .slide {
   background-color: #0f1b40;
-  background-image: url('../images/homepage-sketch-2.png');
+  background-image: url('../images/1.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2000,7 +2000,7 @@
 
 .slide-2 {
   background-color: #0f1b40;
-  background-image: url('../images/sketch.png');
+  background-image: url('../images/2.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2010,7 +2010,7 @@
 
 .slide-3 {
   background-color: #0f1b40;
-  background-image: url('../images/cropped-homepage-sketch.png');
+  background-image: url('../images/final.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2020,7 +2020,7 @@
 
 .slide-4 {
   background-color: #0f1b40;
-  background-image: url('../images/final-almost-homepage-sketch.png');
+  background-image: url('../images/Screenshot-2025-12-16-at-11.54.52-PM.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2032,7 +2032,7 @@
 
 .slide-5 {
   background-color: #0f1b40;
-  background-image: url('../images/final-homepage-sketch.png');
+  background-image: url('../images/Screenshot-2025-12-17-at-1.01.02-AM.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2557,6 +2557,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 
 .slide-10 {
@@ -2855,6 +2857,251 @@
   transform: rotateX(0)rotateY(180deg)rotateZ(0);
 }
 
+.ikeaprototypetopimg {
+  width: 100%;
+  height: 55vh;
+  margin-left: 0%;
+  position: relative;
+  top: -2%;
+  left: 25%;
+}
+
+.sliderikea {
+  background-color: #0f1b40;
+  width: 99.9501%;
+  height: 50vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+}
+
+.slideoneikea {
+  background-color: #0f1b40;
+  background-image: url('../images/ikea-homepage.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 99.9999%;
+  height: 100%;
+}
+
+.slidetwoikea {
+  background-color: #0f1b40;
+  background-image: url('../images/ikea-product-detail-page-portrait.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slidethreeikea {
+  background-color: #0f1b40;
+  background-image: url('../images/ikea-scan-feature-portrait.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 99.9999%;
+  height: 100%;
+}
+
+.sliderdiscoveryikea {
+  width: 99.9715%;
+  height: 35vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.slideonediscoveryikea {
+  background-color: #0f1b40;
+  background-image: url('../images/User-Persona.png');
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  background-size: auto 80vh;
+  width: 100%;
+  height: 100%;
+}
+
+.slidetwodiscoveryikea {
+  background-color: #0f1b40;
+  background-image: url('../images/user-flow.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.slidethreediscoveryikea {
+  background-color: #0f1b40;
+  background-image: url('../images/Moodboard.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.slidersketchesikea {
+  width: 99.9501%;
+  height: 35vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.slideone {
+  background-color: #0f1b40;
+  background-image: url('../images/Homepage-wireframe.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.slidetwo {
+  background-color: #0f1b40;
+  background-image: url('../images/Product-Details-wireframe.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.slidethree {
+  background-color: #0f1b40;
+  background-image: url('../images/Begin-navigating---item-path.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.slidefour {
+  background-color: #0f1b40;
+  background-image: url('../images/In-Store-Navigation-map-4.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.ikeanarrationtext {
+  color: #bf7e96;
+  width: 33%;
+  height: 35%;
+  margin-top: 5%;
+  margin-left: 65%;
+  font-family: Dosis, Impact, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.78rem;
+  position: absolute;
+  left: -3%;
+}
+
+.onepaynarrationtext-copy {
+  color: #bf7e96;
+  width: 33%;
+  height: 35%;
+  margin-top: 5%;
+  margin-left: 65%;
+  font-family: Dosis, Impact, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.78rem;
+  position: absolute;
+}
+
+.ikeanarrationtext2 {
+  color: #bf7e96;
+  width: 25%;
+  height: 35%;
+  margin-top: 5%;
+  margin-left: 65%;
+  font-family: Dosis, Impact, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.78rem;
+  position: absolute;
+  left: 5%;
+}
+
+.singleimagesmall {
+  border-radius: 20px;
+  width: 55%;
+  height: 40vh;
+  margin-bottom: 5%;
+  margin-left: 30%;
+  margin-right: 0%;
+}
+
+.ikeasider {
+  background-color: #0f1b40;
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 5%;
+}
+
+.slide9ikea {
+  background-image: url('../images/homepage.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.slide10ikea {
+  background-image: url('../images/product-details.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.slide8ikea {
+  background-image: url('../images/viewinspace.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.slide11ikea {
+  background-image: url('../images/navigating-portrait.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.ikeanarrationtextlargeview, .ikeanarrationtextlargeview2 {
+  color: #bf7e96;
+  width: 33%;
+  height: 35%;
+  margin-top: 5%;
+  margin-left: 65%;
+  font-family: Dosis, Impact, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.78rem;
+  position: absolute;
+  left: -3%;
+}
+
+.slideonediscoveryikeamobile {
+  background-color: #0f1b40;
+  background-image: url('../images/User-Persona.png');
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  background-size: auto 80vh;
+  width: 100%;
+  height: 100%;
+}
+
+.mobilefooterikea {
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   .code-embed {
     width: 20px;
@@ -3133,7 +3380,7 @@
 
   .slide {
     background-color: #0f1b40;
-    background-image: url('../images/homepage-sketch-2.png');
+    background-image: url('../images/1.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3145,7 +3392,7 @@
 
   .slide-2 {
     background-color: #0f1b40;
-    background-image: url('../images/sketch.png');
+    background-image: url('../images/2.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3153,7 +3400,7 @@
 
   .slide-3 {
     background-color: #0f1b40;
-    background-image: url('../images/cropped-homepage-sketch.png');
+    background-image: url('../images/final.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3161,7 +3408,7 @@
 
   .slide-4 {
     background-color: #0f1b40;
-    background-image: url('../images/final-almost-homepage-sketch.png');
+    background-image: url('../images/Screenshot-2025-12-16-at-11.54.52-PM.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3169,7 +3416,7 @@
 
   .slide-5 {
     background-color: #0f1b40;
-    background-image: url('../images/final-homepage-sketch.png');
+    background-image: url('../images/Screenshot-2025-12-17-at-1.01.02-AM.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3256,7 +3503,7 @@
   .slide-nav-4 {
     width: 100%;
     height: 20.7871%;
-    padding-top: 6%;
+    padding-top: 10%;
   }
 
   .back {
@@ -3432,6 +3679,94 @@
 
   .summaryobjhome, .objtexthome {
     font-size: 1.75rem;
+  }
+
+  .ikeaprototypetopimg {
+    width: 100%;
+    height: 60vh;
+    margin-left: 0%;
+  }
+
+  .sliderikea {
+    background-color: #0f1b40;
+    width: 100%;
+    height: 50vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+  }
+
+  .slideoneikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-homepage.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slidetwoikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-product-detail-page-portrait.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slidethreeikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-scan-feature-portrait.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slideone {
+    background-color: #0f1b40;
+    background-image: url('../images/Homepage-wireframe.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidetwo {
+    background-color: #0f1b40;
+    background-image: url('../images/Product-Details-wireframe.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidethree {
+    background-color: #0f1b40;
+    background-image: url('../images/Begin-navigating---item-path.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidefour {
+    background-color: #0f1b40;
+    background-image: url('../images/In-Store-Navigation-map-4.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .ikeanarrationtext, .onepaynarrationtext-copy, .ikeanarrationtext2, .ikeanarrationtextlargeview {
+    width: 33%;
+    margin-left: 60%;
+  }
+
+  .ikeanarrationtextlargeview2 {
+    width: 20%;
+    margin-left: 60%;
+    left: 10%;
   }
 }
 
@@ -3744,7 +4079,7 @@
 
   .slide {
     background-color: #0f1b40;
-    background-image: url('../images/homepage-sketch-2.png');
+    background-image: url('../images/1.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3756,7 +4091,7 @@
 
   .slide-2 {
     background-color: #0f1b40;
-    background-image: url('../images/sketch.png');
+    background-image: url('../images/2.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3764,7 +4099,7 @@
 
   .slide-3 {
     background-color: #0f1b40;
-    background-image: url('../images/cropped-homepage-sketch.png');
+    background-image: url('../images/final.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3772,7 +4107,7 @@
 
   .slide-4 {
     background-color: #0f1b40;
-    background-image: url('../images/final-almost-homepage-sketch.png');
+    background-image: url('../images/Screenshot-2025-12-16-at-11.54.52-PM.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3780,7 +4115,7 @@
 
   .slide-5 {
     background-color: #0f1b40;
-    background-image: url('../images/final-homepage-sketch.png');
+    background-image: url('../images/Screenshot-2025-12-17-at-1.01.02-AM.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3896,7 +4231,7 @@
   .slide-nav-4 {
     width: 100%;
     height: 20.7476%;
-    padding-top: 6%;
+    padding-top: 10%;
   }
 
   .back {
@@ -4032,6 +4367,104 @@
     margin-left: 10%;
     font-size: 2rem;
     line-height: 2rem;
+  }
+
+  .ikeaprototypetopimg {
+    width: 100%;
+    height: 50vh;
+    margin-left: 0%;
+    position: relative;
+    left: 50%;
+  }
+
+  .sliderikea {
+    width: 99.9236%;
+    height: 50vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+  }
+
+  .slideoneikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-homepage.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 99.9999%;
+  }
+
+  .slidetwoikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-product-detail-page-portrait.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 99.9999%;
+  }
+
+  .slidethreeikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-scan-feature-portrait.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 99.9999%;
+  }
+
+  .slidersketchesikea {
+    width: 99.9236%;
+    height: 35vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .slideone {
+    background-color: #0f1b40;
+    background-image: url('../images/Homepage-wireframe.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidetwo {
+    background-color: #0f1b40;
+    background-image: url('../images/Product-Details-wireframe.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidethree {
+    background-color: #0f1b40;
+    background-image: url('../images/Begin-navigating---item-path.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidefour {
+    background-color: #0f1b40;
+    background-image: url('../images/In-Store-Navigation-map-4.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .ikeanarrationtext, .onepaynarrationtext-copy, .ikeanarrationtext2, .ikeanarrationtextlargeview {
+    width: 33%;
+    margin-top: 5%;
+    margin-left: 60%;
+  }
+
+  .ikeanarrationtextlargeview2 {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 60%;
+    left: 10%;
   }
 }
 
@@ -4337,6 +4770,7 @@
     width: auto;
     height: 60vh;
     margin-left: 0%;
+    left: 25%;
   }
 
   .fullresearchlink {
@@ -4651,7 +5085,7 @@
 
   .slide {
     background-color: #0f1b40;
-    background-image: url('../images/homepage-sketch-2.png');
+    background-image: url('../images/1.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -4664,7 +5098,7 @@
 
   .slide-2 {
     background-color: #0f1b40;
-    background-image: url('../images/sketch.png');
+    background-image: url('../images/2.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -4672,7 +5106,7 @@
 
   .slide-3 {
     background-color: #0f1b40;
-    background-image: url('../images/cropped-homepage-sketch.png');
+    background-image: url('../images/final.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -4680,7 +5114,7 @@
 
   .slide-4 {
     background-color: #0f1b40;
-    background-image: url('../images/final-almost-homepage-sketch.png');
+    background-image: url('../images/Screenshot-2025-12-16-at-11.54.52-PM.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -4688,7 +5122,7 @@
 
   .slide-5 {
     background-color: #0f1b40;
-    background-image: url('../images/final-homepage-sketch.png');
+    background-image: url('../images/Screenshot-2025-12-17-at-1.01.02-AM.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -4784,6 +5218,10 @@
   .homeimg {
     width: 60%;
     height: 40px;
+  }
+
+  .slide-nav-4 {
+    padding-top: 10%;
   }
 
   .cell-9 {
@@ -5163,6 +5601,157 @@
   .image-42down {
     height: 45%;
     margin-top: 24%;
+  }
+
+  .ikeaprototypetopimg {
+    width: auto;
+    height: 60vh;
+    margin-left: 0%;
+    left: 25%;
+  }
+
+  .sliderikea {
+    height: 60vh;
+    display: block;
+  }
+
+  .slideoneikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-homepage.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+  }
+
+  .slidetwoikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-product-detail-page-portrait.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidethreeikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-scan-feature-portrait.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .sliderdiscoveryikea {
+    height: 40vh;
+    margin-bottom: 5%;
+  }
+
+  .slideonediscoveryikea {
+    background-color: #0f1b40;
+    background-image: url('../images/User-Persona.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto 80vh;
+    margin-top: 0%;
+  }
+
+  .slidetwodiscoveryikea {
+    background-color: #0f1b40;
+    background-image: url('../images/user-flow.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidethreediscoveryikea {
+    background-color: #0f1b40;
+    background-image: url('../images/Moodboard.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidersketchesikea {
+    height: 40vh;
+    margin-top: 5%;
+  }
+
+  .slideone {
+    background-color: #0f1b40;
+    background-image: url('../images/Homepage-wireframe.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 5%;
+  }
+
+  .slidetwo {
+    background-color: #0f1b40;
+    background-image: url('../images/Product-Details-wireframe.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidethree {
+    background-color: #0f1b40;
+    background-image: url('../images/Begin-navigating---item-path.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidefour {
+    background-color: #0f1b40;
+    background-image: url('../images/In-Store-Navigation-map-4.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .ikeanarrationtext {
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 60%;
+    font-size: 2rem;
+    line-height: 2rem;
+    top: 0%;
+  }
+
+  .onepaynarrationtext-copy, .ikeanarrationtext2 {
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 60%;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .ikeanarrationtextlargeview {
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 60%;
+    font-size: 2rem;
+    line-height: 2rem;
+    top: -22%;
+    left: 0%;
+  }
+
+  .ikeanarrationtextlargeview2 {
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 60%;
+    font-size: 2rem;
+    line-height: 2rem;
+    top: -22%;
+    left: 10%;
+  }
+
+  .slideonediscoveryikeamobile {
+    background-color: #0f1b40;
+    background-image: url('../images/User-Persona.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto 80vh;
+    margin-top: 0%;
   }
 }
 
@@ -5637,9 +6226,70 @@
   }
 
   .image-42down {
-    width: 35%;
-    height: 25%;
+    width: 45%;
+    height: 40%;
     margin-top: 50%;
+  }
+
+  .ikeaprototypetopimg {
+    width: 100%;
+    max-width: none;
+    height: 40vh;
+  }
+
+  .sliderikea {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+  }
+
+  .slideoneikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-homepage.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidetwoikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-product-detail-page-portrait.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slidethreeikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-scan-feature-portrait.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .ikeanarrationtext, .onepaynarrationtext-copy, .ikeanarrationtext2 {
+    width: 30%;
+    margin-left: 68%;
+    display: none;
+  }
+
+  .singleimagesmall {
+    height: 30vh;
+    margin-left: 25%;
+  }
+
+  .ikeasider {
+    height: 40vh;
+  }
+
+  .ikeanarrationtextlargeview, .ikeanarrationtextlargeview2 {
+    width: 30%;
+    margin-left: 68%;
+    display: none;
+  }
+
+  .mobilefooterikea {
+    display: none;
   }
 }
 
@@ -5674,15 +6324,16 @@
   }
 
   .chaos {
-    margin-left: 5%;
+    margin-left: 10%;
     font-size: 5rem;
-    left: -2px;
+    left: 7%;
   }
 
   .clarityclear {
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 0%;
+    margin-left: 7%;
+    margin-right: 10%;
+    padding-right: 0%;
     font-size: 5rem;
     position: relative;
   }
@@ -6004,6 +6655,8 @@
   }
 
   .landscapetext {
+    text-align: left;
+    width: 30%;
     margin-left: 35%;
     padding-top: 1%;
   }
@@ -6188,10 +6841,14 @@
   }
 
   .image-42down {
-    width: 100%;
-    height: 25%;
-    margin-top: 75%;
-    margin-left: 75%;
+    width: 70%;
+    height: 30%;
+    margin-top: 0%;
+    margin-left: 29%;
+    display: inline-flex;
+    position: relative;
+    top: 0%;
+    left: 0%;
   }
 
   .landscapelinkresume {
@@ -6205,6 +6862,61 @@
     height: 30vh;
     display: flex;
     position: relative;
+  }
+
+  .sliderikea {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .sliderdiscoveryikea {
+    margin-bottom: 10%;
+  }
+
+  .slidersketchesikea {
+    margin-bottom: 15%;
+  }
+
+  .singleimagesmall {
+    height: 30vh;
+  }
+
+  .ikeasider {
+    margin-top: 0%;
+    margin-bottom: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  .mobilefooterikea {
+    background-color: #e8e4e499;
+    border-radius: 15px;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+  }
+
+  .landscapelinkikea {
+    background-color: #ffffff59;
+    background-image: url('../images/homepage.png');
+    background-position: 50% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    flex-flow: column;
+    height: 30vh;
+    display: flex;
+    position: relative;
+  }
+
+  .text-block-15 {
+    color: #0f1b40;
+    font-family: Dosis, Impact, sans-serif;
+    font-size: 2rem;
+    line-height: 1rem;
+    display: block;
+    position: relative;
+    left: 50%;
   }
 }
 
@@ -6297,7 +7009,7 @@
     margin-left: auto;
     font-size: 5rem;
     display: block;
-    left: -11%;
+    left: -22%;
   }
 
   .heading-8 {
@@ -6432,6 +7144,7 @@
   }
 
   .quick-stack-3 {
+    grid-row-gap: 0px;
     margin-top: 5%;
   }
 
@@ -6492,7 +7205,7 @@
 
   .researchspan {
     font-size: .85rem;
-    line-height: .4rem;
+    line-height: 1.25rem;
   }
 
   .notetext, .fullresearchlink, .sketchesdiv {
@@ -6762,7 +7475,7 @@
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     background-color: #0f1b40;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
     grid-auto-flow: column;
@@ -7310,8 +8023,8 @@
 
   .image-42down {
     width: 20%;
-    margin-top: 50%;
-    margin-left: 20%;
+    margin-top: 42%;
+    margin-left: 10%;
     transform: rotateX(0)rotateY(180deg)rotateZ(-90deg);
   }
 
@@ -7333,6 +8046,95 @@
     background-color: #ffffff59;
     background-image: url('../images/resume-image.png');
     background-position: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #e8e4e4;
+    border-radius: 20px;
+    width: 45vw;
+    height: 25vh;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+  .sliderikea {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    display: block;
+  }
+
+  .slideoneikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-homepage.png');
+    background-position: 50%;
+    background-size: contain;
+  }
+
+  .slidetwoikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-product-detail-page-portrait.png');
+    background-position: 50%;
+    background-size: contain;
+  }
+
+  .slidethreeikea {
+    background-color: #0f1b40;
+    background-image: url('../images/ikea-scan-feature-portrait.png');
+    background-position: 50%;
+    background-size: contain;
+  }
+
+  .sliderdiscoveryikea {
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+
+  .slidersketchesikea {
+    margin-bottom: 15%;
+  }
+
+  .singleimagesmall {
+    width: 95vw;
+    height: 30vh;
+    margin-left: 0%;
+  }
+
+  .slideonediscoveryikeamobile {
+    background-position: 50% 55%;
+    background-size: 100vw;
+  }
+
+  .mobilefooterikea {
+    -webkit-text-fill-color: inherit;
+    background-color: #e8e4e499;
+    background-clip: border-box;
+    border-top: 1px solid #e8e4e4;
+    border-radius: 0;
+    width: 100%;
+    height: 9vh;
+    margin-top: 15%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+  }
+
+  .landscapelinkikea {
+    background-color: #ffffff59;
+    background-image: url('../images/homepage-mockup.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #e8e4e4;
+    border-radius: 20px;
+    width: 45vw;
+    height: 25vh;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+  .mobiletablinkikea {
+    background-color: #ffffff59;
+    background-image: url('../images/homepage.png');
+    background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid #e8e4e4;
@@ -7384,20 +8186,27 @@
   grid-template-columns: .25fr .25fr .25fr;
 }
 
-#w-node-_271512e3-56dd-34a7-cc5b-113ae904fe51-01b028dc {
+#w-node-_0fd869e4-134c-1086-569a-f26ba75eefbb-01b028dc {
   grid-template-rows: auto;
   grid-template-columns: .75fr 1fr;
 }
 
-#w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-01b028dc {
+#w-node-_0fd869e4-134c-1086-569a-f26ba75eefcd-01b028dc {
   grid-template-rows: auto;
   grid-template-columns: .75fr 1fr;
   display: none;
 }
 
-#w-node-_271512e3-56dd-34a7-cc5b-113ae904fea5-01b028dc {
+#w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-01b028dc {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
+  display: none;
+}
+
+#w-node-_0fd869e4-134c-1086-569a-f26ba75ef0c6-01b028dc {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  display: none;
 }
 
 #w-node-_4e64c2f5-50d6-d0b4-f940-b74309e9120e-01b028dc {
@@ -7417,9 +8226,20 @@
   display: none;
 }
 
-#w-node-_9dd3078d-bbdf-31ec-e316-10aab36edcfc-01b028dc {
+#w-node-_271512e3-56dd-34a7-cc5b-113ae904fe51-01b028dc {
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .75fr 1fr;
+}
+
+#w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-01b028dc {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+  display: none;
+}
+
+#w-node-_271512e3-56dd-34a7-cc5b-113ae904fea5-01b028dc {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #w-node-bb2cd9dc-062c-dad4-3d8e-bbcac57231d1-01b028dc {
@@ -7829,6 +8649,118 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+#w-node-_9642e3f6-6de2-3a32-7e4c-55536de20821-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .8fr 1fr;
+}
+
+#w-node-_2a110871-8925-7678-dc55-d78e6438f11c-e214b601, #w-node-_97f0b5ea-fd53-a9d6-85a5-a13902628c4d-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .35fr 1fr;
+}
+
+#w-node-_46a16706-6db5-06da-4463-311882ca6727-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .5fr 1fr;
+}
+
+#w-node-_46125794-d970-4e17-b8aa-41cc40363960-e214b601, #w-node-d1b7605c-cc33-e91c-8058-20098f9f7ee6-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+}
+
+#w-node-e7b9b504-7abe-1de3-77c4-4b9746fa37cf-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .5fr 1fr;
+}
+
+#w-node-_0db71a41-192a-eaeb-196d-f49e621019cc-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_70b7e18b-91c9-80cd-19c3-ea03caf01fed-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr .5fr 1fr;
+}
+
+#w-node-c4f0a3f0-db9c-aef3-84ae-69639c0dd464-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .25fr .25fr .25fr;
+}
+
+#w-node-_0fd869e4-134c-1086-569a-f26ba75eefbb-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+}
+
+#w-node-_0fd869e4-134c-1086-569a-f26ba75eefcd-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+  display: none;
+}
+
+#w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: none;
+}
+
+#w-node-_0fd869e4-134c-1086-569a-f26ba75ef0c6-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  display: none;
+}
+
+#w-node-_4e64c2f5-50d6-d0b4-f940-b74309e9120e-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+}
+
+#w-node-_97dfea5b-cc05-5e96-7177-db331201016a-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+  display: none;
+}
+
+#w-node-_292ca145-9381-4092-4020-3099760fb9aa-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: none;
+}
+
+#w-node-_271512e3-56dd-34a7-cc5b-113ae904fe51-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+}
+
+#w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+  display: none;
+}
+
+#w-node-_271512e3-56dd-34a7-cc5b-113ae904fea5-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#w-node-bb2cd9dc-062c-dad4-3d8e-bbcac57231d1-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+}
+
+#w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+  display: none;
+}
+
+#w-node-bb2cd9dc-062c-dad4-3d8e-bbcac5723204-e214b601 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media screen and (min-width: 1920px) {
   #w-node-_46a16706-6db5-06da-4463-311882ca6727-01b028dc {
     grid-template-rows: auto;
@@ -7840,7 +8772,7 @@
     grid-template-columns: 1fr .5fr;
   }
 
-  #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-01b028dc, #w-node-_97dfea5b-cc05-5e96-7177-db331201016a-01b028dc, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-01b028dc, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-01b028dc {
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefcd-01b028dc, #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-01b028dc, #w-node-_97dfea5b-cc05-5e96-7177-db331201016a-01b028dc, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-01b028dc, #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-01b028dc, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-01b028dc {
     display: none;
   }
 
@@ -7931,10 +8863,24 @@
   #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-00f8915f, #w-node-_97dfea5b-cc05-5e96-7177-db331201016a-00f8915f, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-00f8915f, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-00f8915f {
     display: none;
   }
+
+  #w-node-_46a16706-6db5-06da-4463-311882ca6727-e214b601 {
+    grid-template-rows: auto;
+    grid-template-columns: .5fr .5fr;
+  }
+
+  #w-node-_46125794-d970-4e17-b8aa-41cc40363960-e214b601 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr .5fr;
+  }
+
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefcd-e214b601, #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-e214b601, #w-node-_97dfea5b-cc05-5e96-7177-db331201016a-e214b601, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-e214b601, #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-e214b601, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-e214b601 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-01b028dc, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-01b028dc, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-01b028dc, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-e2959d5d, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-e2959d5d, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-17bf9ca2, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-17bf9ca2, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-361055a3, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-361055a3, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-74dafcc1, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-74dafcc1, #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-00f8915f, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-00f8915f, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-00f8915f {
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-01b028dc, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-01b028dc, #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-01b028dc, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-01b028dc, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-e2959d5d, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-e2959d5d, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-17bf9ca2, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-17bf9ca2, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-361055a3, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-361055a3, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-74dafcc1, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-74dafcc1, #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-00f8915f, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-00f8915f, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-00f8915f, #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-e214b601, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-e214b601, #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-e214b601, #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-e214b601 {
     display: none;
   }
 }
@@ -7945,7 +8891,7 @@
     grid-template-columns: .5fr 1fr;
   }
 
-  #w-node-_292ca145-9381-4092-4020-3099760fb9aa-01b028dc {
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-01b028dc, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-01b028dc {
     display: none;
   }
 
@@ -7993,9 +8939,27 @@
   #w-node-_292ca145-9381-4092-4020-3099760fb9aa-00f8915f {
     display: none;
   }
+
+  #w-node-_46125794-d970-4e17-b8aa-41cc40363960-e214b601, #w-node-d1b7605c-cc33-e91c-8058-20098f9f7ee6-e214b601 {
+    grid-template-rows: auto;
+    grid-template-columns: .5fr 1fr;
+  }
+
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-e214b601, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-e214b601 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 991px) {
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefbb-01b028dc {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefcd-01b028dc, #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-01b028dc {
+    display: none;
+  }
+
   #w-node-_4e64c2f5-50d6-d0b4-f940-b74309e9120e-01b028dc {
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
@@ -8047,6 +9011,24 @@
   }
 
   #w-node-_97dfea5b-cc05-5e96-7177-db331201016a-00f8915f, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-00f8915f {
+    display: none;
+  }
+
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefbb-e214b601 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefcd-e214b601, #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-e214b601 {
+    display: none;
+  }
+
+  #w-node-_4e64c2f5-50d6-d0b4-f940-b74309e9120e-e214b601 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #w-node-_97dfea5b-cc05-5e96-7177-db331201016a-e214b601, #w-node-_292ca145-9381-4092-4020-3099760fb9aa-e214b601 {
     display: none;
   }
 }
@@ -8115,6 +9097,22 @@
   #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-00f8915f {
     display: grid;
   }
+
+  #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe51-e214b601 {
+    display: none;
+  }
+
+  #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-e214b601 {
+    display: grid;
+  }
+
+  #w-node-bb2cd9dc-062c-dad4-3d8e-bbcac57231d1-e214b601 {
+    display: none;
+  }
+
+  #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-e214b601 {
+    display: grid;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -8123,15 +9121,15 @@
     grid-template-columns: 1fr;
   }
 
-  #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe51-01b028dc {
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefbb-01b028dc {
     display: none;
   }
 
-  #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-01b028dc {
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefcd-01b028dc {
     display: grid;
   }
 
-  #w-node-_4e64c2f5-50d6-d0b4-f940-b74309e9120e-01b028dc {
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-01b028dc, #w-node-_0fd869e4-134c-1086-569a-f26ba75ef0c6-01b028dc, #w-node-_4e64c2f5-50d6-d0b4-f940-b74309e9120e-01b028dc {
     display: none;
   }
 
@@ -8139,7 +9137,15 @@
     display: grid;
   }
 
-  #w-node-_292ca145-9381-4092-4020-3099760fb9aa-01b028dc, #w-node-_9dd3078d-bbdf-31ec-e316-10aab36edcfc-01b028dc, #w-node-bb2cd9dc-062c-dad4-3d8e-bbcac57231d1-01b028dc {
+  #w-node-_292ca145-9381-4092-4020-3099760fb9aa-01b028dc, #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe51-01b028dc {
+    display: none;
+  }
+
+  #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-01b028dc {
+    display: grid;
+  }
+
+  #w-node-bb2cd9dc-062c-dad4-3d8e-bbcac57231d1-01b028dc {
     display: none;
   }
 
@@ -8275,6 +9281,43 @@
   }
 
   #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-00f8915f {
+    display: grid;
+  }
+
+  #w-node-_70b7e18b-91c9-80cd-19c3-ea03caf01fed-e214b601 {
+    grid-template-rows: 3px;
+    grid-template-columns: 1fr;
+  }
+
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefbb-e214b601 {
+    display: none;
+  }
+
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75eefcd-e214b601 {
+    display: grid;
+  }
+
+  #w-node-_0fd869e4-134c-1086-569a-f26ba75ef015-e214b601, #w-node-_0fd869e4-134c-1086-569a-f26ba75ef0c6-e214b601, #w-node-_4e64c2f5-50d6-d0b4-f940-b74309e9120e-e214b601 {
+    display: none;
+  }
+
+  #w-node-_97dfea5b-cc05-5e96-7177-db331201016a-e214b601 {
+    display: grid;
+  }
+
+  #w-node-_292ca145-9381-4092-4020-3099760fb9aa-e214b601, #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe51-e214b601 {
+    display: none;
+  }
+
+  #w-node-_271512e3-56dd-34a7-cc5b-113ae904fe64-e214b601 {
+    display: grid;
+  }
+
+  #w-node-bb2cd9dc-062c-dad4-3d8e-bbcac57231d1-e214b601 {
+    display: none;
+  }
+
+  #w-node-dc5e2981-43e9-0ad3-71ee-0ed45ff30018-e214b601 {
     display: grid;
   }
 }
