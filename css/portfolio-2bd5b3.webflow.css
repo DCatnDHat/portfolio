@@ -291,7 +291,7 @@
   font-size: 2.5rem;
 }
 
-.grid-2 {
+.desktopgrid2 {
   grid-template-columns: 1fr;
 }
 
@@ -327,7 +327,7 @@
   line-height: 25px;
 }
 
-.grid-3 {
+.desktopgrid3 {
   grid-column-gap: 80px;
   grid-template-rows: auto;
   margin-top: 5%;
@@ -2564,6 +2564,42 @@
   display: block;
 }
 
+.headingmobile {
+  color: #e8e4e4;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 2.5rem;
+  display: none;
+}
+
+.heading-2-mobile {
+  color: #e8e4e4;
+  margin-top: 0;
+  margin-bottom: 0%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 25px;
+  display: none;
+}
+
+.desktopgrid {
+  grid-template-rows: auto;
+  margin-bottom: auto;
+}
+
+.mobilephoto {
+  display: none;
+}
+
+.mobileletter {
+  color: #e8e4e4;
+  width: 100%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   .ikea-card {
     width: 25%;
@@ -2572,6 +2608,10 @@
   .tether-card {
     width: 25%;
     top: 47%;
+  }
+
+  .onepay-card, .kidcommerce-card {
+    width: 130%;
   }
 
   .section {
@@ -3279,9 +3319,22 @@
     font-weight: 400;
     line-height: 1.55rem;
   }
+
+  .headingmobile, .heading-2-mobile {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .onepay-card {
+    width: 150%;
+    top: -38%;
+  }
+
+  .kidcommerce-card {
+    width: 150%;
+  }
+
   .link-block {
     width: auto;
     margin-left: 0%;
@@ -4058,9 +4111,39 @@
     font-size: 1.75rem;
     line-height: 2rem;
   }
+
+  .headingmobile, .heading-2-mobile, .mobilephoto, .mobileletter {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1920px) {
+  .heading {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .heading-2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .desktopgrid3 {
+    margin-bottom: 50%;
+  }
+
+  .onepay-card {
+    width: 200%;
+    top: 25%;
+  }
+
+  .kidcommerce-card {
+    width: 90%;
+    position: absolute;
+    top: 46%;
+    left: 85%;
+  }
+
   .ikeanarrationtextlargeviewmobile {
     width: 30%;
     margin-top: 10%;
@@ -4871,6 +4954,17 @@
     line-height: 2.2rem;
   }
 
+  .letter {
+    width: 150%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .image-35 {
+    width: 100%;
+    left: 75%;
+  }
+
   .slidetwodiscoverykc {
     background-color: #0000;
     background-image: url('../images/user-interview-results.png');
@@ -5067,9 +5161,48 @@
     font-weight: 400;
     line-height: 2rem;
   }
+
+  .headingmobile {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    display: none;
+  }
+
+  .heading-2-mobile {
+    font-size: 3rem;
+    line-height: 3rem;
+    display: none;
+  }
+
+  .quick-stack-2 {
+    width: 100%;
+  }
+
+  .mobileletter {
+    width: 150%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media screen and (max-width: 991px) {
+  .footer-section {
+    margin-top: 10%;
+  }
+
+  .heading, .heading-2 {
+    padding-left: 5%;
+  }
+
+  .desktopgrid3 {
+    margin-top: 10%;
+    margin-bottom: auto;
+  }
+
+  .onepay-card {
+    left: 10%;
+  }
+
   .link-block {
     width: 100%;
     margin-left: 15%;
@@ -5581,6 +5714,11 @@
   .summarytextbottom {
     margin-left: 5%;
   }
+
+  .headingmobile, .heading-2-mobile {
+    padding-left: 5%;
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -6047,13 +6185,26 @@
     height: auto;
   }
 
-  .summarytextbottom {
+  .summarytextbottom, .headingmobile, .heading-2-mobile, .mobilephoto, .mobileletter {
     display: none;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .ikeanarrationtextlargeviewmobile, .fullresearchlink {
+  .footer-section {
+    margin-bottom: 1%;
+  }
+
+  .heading {
+    line-height: 3rem;
+  }
+
+  .heading-2 {
+    margin-top: 5%;
+    line-height: 2rem;
+  }
+
+  .desktopgrid3, .ikeanarrationtextlargeviewmobile, .fullresearchlink {
     display: none;
   }
 
@@ -6737,6 +6888,12 @@
     display: block;
   }
 
+  .letter {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
   .slidersketcheskc {
     margin-bottom: 15%;
   }
@@ -6850,6 +7007,53 @@
     font-size: 1.15rem;
     display: none;
   }
+
+  .quick-stack {
+    padding-bottom: 10px;
+  }
+
+  .mobilestack2 {
+    padding-bottom: 20px;
+  }
+
+  .headingmobile {
+    line-height: 3rem;
+    display: block;
+  }
+
+  .heading-2-mobile {
+    margin-top: 5%;
+    line-height: 2rem;
+    display: block;
+  }
+
+  .desktopgrid {
+    display: none;
+  }
+
+  .mobilephoto {
+    width: 60%;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    display: block;
+    position: relative;
+    left: 20%;
+    transform: rotate(4deg);
+  }
+
+  .mobileletter {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: block;
+  }
+}
+
+#w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  display: none;
 }
 
 #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93 {
@@ -6937,7 +7141,7 @@
 }
 
 @media screen and (min-width: 1920px) {
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d372697877fb-e4db8f43, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d372697877fb-e4db8f43, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43 {
     display: none;
   }
 
@@ -6952,18 +7156,22 @@
 }
 
 @media screen and (min-width: 1440px) {
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43, #w-node-affa69b7-a509-1ed3-2668-89839ac705e0-187afa52 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43, #w-node-affa69b7-a509-1ed3-2668-89839ac705e0-187afa52 {
     display: none;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43 {
     display: none;
   }
 }
 
 @media screen and (max-width: 991px) {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
+    display: none;
+  }
+
   #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93 {
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
@@ -6993,7 +7201,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9, #w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9, #w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
     display: none;
   }
 
@@ -7003,6 +7211,10 @@
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
+    display: grid;
+  }
+
   #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93 {
     display: none;
   }
@@ -7027,7 +7239,7 @@
     display: grid;
   }
 
-  #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43, #w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
+  #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43, #w-node-_7963030a-c30e-0d6b-fab8-c139fa5a839f-aedb9bf1, #w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
     display: none;
   }
 
