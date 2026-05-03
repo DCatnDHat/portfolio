@@ -108,44 +108,55 @@
 }
 
 .work-nav {
-  color: #e8e4e4;
+  color: #afa9ec;
   background-color: #0000;
-  background-image: url('../images/work-nav.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .work-nav:hover {
-  background-image: url('../images/work-nav-white.svg');
+  color: #e8e4e4;
+  background-image: none;
 }
 
 .about-nav {
-  color: #e8e4e4;
+  color: #afa9ec;
   background-color: #0000;
-  background-image: url('../images/about-nav.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
   margin-right: 2%;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .about-nav:hover {
-  background-image: url('../images/about-nav-white.svg');
+  color: #e8e4e4;
+  background-image: none;
 }
 
 .home-nav {
-  color: #e8e4e4;
+  color: #afa9ec;
+  text-align: center;
   background-color: #0000;
-  background-image: url('../images/home-nav.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
   display: block;
 }
 
 .home-nav:hover {
-  background-image: url('../images/home-nav-white.svg');
+  color: #e8e4e4;
+  background-image: none;
 }
 
 .button {
@@ -189,43 +200,52 @@
 }
 
 .email-footer {
-  color: #e8e4e4;
+  color: #afa9ec;
   background-color: #0000;
-  background-image: url('../images/email.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .email-footer:hover {
-  background-image: url('../images/email-white.svg');
+  color: #e8e4e4;
+  background-image: none;
 }
 
 .linkedin-footer {
-  color: #e8e4e4;
+  color: #afa9ec;
   background-color: #0000;
-  background-image: url('../images/linkedin.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
   margin-left: 2%;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .linkedin-footer:hover {
-  background-image: url('../images/linkedin-white.svg');
+  color: #e8e4e4;
+  background-image: none;
 }
 
 .resume-footer {
-  color: #e8e4e4;
+  color: #afa9ec;
   background-color: #0000;
-  background-image: url('../images/resume.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .resume-footer:hover {
-  background-image: url('../images/resume-white.svg');
+  color: #e8e4e4;
+  background-image: none;
 }
 
 .button-2 {
@@ -1020,44 +1040,60 @@
 }
 
 .case-study-home-nav {
-  color: #e8e4e4;
+  color: #1a1028;
   background-color: #0000;
-  background-image: url('../images/home-nav-dark.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
   display: block;
 }
 
 .case-study-home-nav:hover {
-  background-image: url('../images/home-nav-mauve.svg');
+  color: #8b2f6f;
+  background-image: none;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5px;
 }
 
 .case-study-work-nav {
-  color: #e8e4e4;
+  color: #8b2f6f;
   background-color: #0000;
-  background-image: url('../images/work-nav-mauve.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .case-study-work-nav:hover {
-  background-image: url('../images/work-nav.svg');
+  color: #afa9ec;
+  background-image: none;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .case-study-about-nav {
-  color: #e8e4e4;
+  color: #1a1028;
   background-color: #0000;
-  background-image: url('../images/about-nav-dark.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
   margin-right: 2%;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .case-study-about-nav:hover {
-  background-image: url('../images/about-nav-mauve.svg');
+  color: #8b2f6f;
+  background-image: none;
 }
 
 .container-2 {
@@ -1138,43 +1174,54 @@
 }
 
 .linkedin-footer-case-study {
-  color: #e8e4e4;
+  color: #1a1028;
   background-color: #0000;
-  background-image: url('../images/linkedin-dark.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
   margin-left: 2%;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .linkedin-footer-case-study:hover {
-  background-image: url('../images/linkedin-mauve.svg');
+  color: #8b2f6f;
+  background-image: none;
 }
 
 .email-footer-case-study {
-  color: #e8e4e4;
+  color: #1a1028;
   background-color: #0000;
-  background-image: url('../images/email-dark.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .email-footer-case-study:hover {
-  background-image: url('../images/email-mauve.svg');
+  color: #8b2f6f;
+  background-image: none;
 }
 
 .resume-footer-case-study {
-  color: #e8e4e4;
+  color: #1a1028;
   background-color: #0000;
-  background-image: url('../images/resume-dark.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
   background-size: auto;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 .resume-footer-case-study:hover {
-  background-image: url('../images/resume-mauve.svg');
+  color: #8b2f6f;
+  background-image: none;
 }
 
 .tethertopimg {
