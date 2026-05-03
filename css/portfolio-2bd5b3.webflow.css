@@ -1055,6 +1055,10 @@
 .case-study-home-nav:hover {
   color: #8b2f6f;
   background-image: none;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5px;
+  text-decoration: none;
 }
 
 .case-study-work-nav {
@@ -5769,6 +5773,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .desktopgrid3 {
+    display: none;
+  }
+
   .cell-10 {
     padding-left: 0%;
   }
@@ -6232,12 +6240,50 @@
     height: auto;
   }
 
-  .summarytextbottom, .headingmobile, .heading-2-mobile, .mobilephoto, .mobileletter {
+  .summarytextbottom {
     display: none;
+  }
+
+  .mobilestack {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+
+  .headingmobile {
+    line-height: 2.5rem;
+    display: block;
+  }
+
+  .heading-2-mobile {
+    margin-top: 3%;
+    line-height: 1.5rem;
+    display: block;
+  }
+
+  .desktopgrid, .mobilephoto, .mobileletter {
+    display: none;
+  }
+
+  .link-block-10 {
+    margin-left: 0%;
+    position: relative;
   }
 }
 
 @media screen and (max-width: 479px) {
+  .work-nav, .about-nav, .home-nav, .email-footer {
+    flex: none;
+  }
+
+  .linkedin-footer {
+    flex: none;
+    margin-left: 2%;
+  }
+
+  .resume-footer {
+    flex: none;
+  }
+
   .footer-section {
     margin-bottom: 1%;
   }
@@ -7248,7 +7294,11 @@
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9, #w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
+    display: grid;
+  }
+
+  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9, #w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
     display: none;
   }
 
