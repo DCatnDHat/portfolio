@@ -1144,6 +1144,7 @@
 .curly-bracket-right {
   order: 9999;
   width: 6%;
+  display: none;
   position: absolute;
   inset: 40% 0% auto 100%;
 }
@@ -1151,6 +1152,7 @@
 .curly-bracket-left {
   order: -9999;
   width: 6%;
+  display: none;
   position: absolute;
   inset: 40% auto 0% 0%;
 }
@@ -1406,6 +1408,7 @@
 .curly-bracket-left-tether {
   order: -9999;
   width: 6%;
+  display: none;
   position: absolute;
   top: 45%;
   left: 0%;
@@ -1414,6 +1417,7 @@
 .curly-bracket-right-tether {
   order: 9999;
   width: 6%;
+  display: none;
   position: absolute;
   inset: 44% 0% auto 95%;
 }
