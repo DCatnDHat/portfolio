@@ -127,11 +127,10 @@
   color: #afa9ec;
   background-color: #0000;
   background-image: none;
-  background-position: 0 0;
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
-  margin-right: 2%;
+  margin-right: 0%;
   font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
   font-size: 1.5rem;
 }
@@ -1055,6 +1054,10 @@
 .case-study-home-nav:hover {
   color: #8b2f6f;
   background-image: none;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5px;
+  text-decoration: none;
 }
 
 .case-study-work-nav {
@@ -1175,9 +1178,9 @@
   color: #1a1028;
   background-color: #0000;
   background-image: none;
-  background-position: 0 0;
   background-repeat: repeat;
   background-size: auto;
+  flex: none;
   align-self: center;
   margin-left: 2%;
   font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
@@ -1195,6 +1198,7 @@
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
+  flex: none;
   align-self: center;
   font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
   font-size: 1.5rem;
@@ -1209,9 +1213,9 @@
   color: #1a1028;
   background-color: #0000;
   background-image: none;
-  background-position: 0 0;
   background-repeat: repeat;
   background-size: auto;
+  flex: none;
   align-self: center;
   font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
   font-size: 1.5rem;
@@ -2644,6 +2648,56 @@
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
+  display: none;
+}
+
+.linkedin-nav {
+  color: #afa9ec;
+  background-color: #0000;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+.linkedin-nav:hover {
+  color: #e8e4e4;
+}
+
+.email-nav {
+  color: #afa9ec;
+  background-color: #0000;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+.email-nav:hover {
+  color: #e8e4e4;
+}
+
+.resume-nav {
+  color: #afa9ec;
+  background-color: #0000;
+  align-self: center;
+  margin-right: 2%;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+.resume-nav:hover {
+  color: #e8e4e4;
+}
+
+.nav-on-mobile {
+  clear: none;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  flex-flow: row;
+  place-content: flex-start flex-end;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   display: none;
 }
 
@@ -5233,6 +5287,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .work-nav, .about-nav, .home-nav {
+    flex: none;
+  }
+
   .footer-section {
     margin-top: 10%;
   }
@@ -5766,10 +5824,18 @@
     padding-left: 5%;
     display: none;
   }
+
+  .linkedin-nav, .email-nav, .resume-nav {
+    flex: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .desktopgrid3 {
+  .work-nav, .about-nav, .home-nav {
+    flex: none;
+  }
+
+  .nav-section, .footer-section, .desktopgrid3 {
     display: none;
   }
 
@@ -5969,7 +6035,15 @@
     line-height: 1.5rem;
   }
 
-  .newprototypeannounce, .curly-bracket-right, .curly-bracket-left {
+  .newprototypeannounce {
+    display: none;
+  }
+
+  .case-study-work-nav, .case-study-about-nav {
+    flex: none;
+  }
+
+  .curly-bracket-right, .curly-bracket-left {
     display: none;
   }
 
@@ -6264,6 +6338,15 @@
     margin-left: 0%;
     position: relative;
   }
+
+  .linkedin-nav, .email-nav, .resume-nav {
+    flex: none;
+  }
+
+  .nav-on-mobile {
+    flex-flow: wrap;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -6278,6 +6361,12 @@
 
   .resume-footer {
     flex: none;
+  }
+
+  .nav-section {
+    flex-flow: wrap;
+    align-content: flex-start;
+    display: none;
   }
 
   .footer-section {
@@ -6544,6 +6633,10 @@
     font-size: 1.15rem;
   }
 
+  .case-study-nav-section {
+    flex-flow: row-reverse;
+  }
+
   .breadcrumb-nav {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -6564,6 +6657,10 @@
     width: auto;
     height: auto;
     display: block;
+  }
+
+  .case-study-footer-section {
+    flex-flow: wrap;
   }
 
   .container-3 {
@@ -7120,6 +7217,10 @@
     display: none;
   }
 
+  .mobilesection {
+    margin-top: 5%;
+  }
+
   .mobilephoto {
     width: 60%;
     height: auto;
@@ -7136,6 +7237,16 @@
     padding-left: 2%;
     padding-right: 2%;
     display: block;
+  }
+
+  .linkedin-nav, .email-nav, .resume-nav {
+    flex: none;
+  }
+
+  .nav-on-mobile {
+    flex-flow: wrap;
+    align-content: flex-start;
+    display: flex;
   }
 }
 
