@@ -1058,6 +1058,7 @@
   align-self: center;
   font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
   font-size: 1.5px;
+  text-decoration: none;
 }
 
 .case-study-work-nav {
@@ -1072,7 +1073,7 @@
 }
 
 .case-study-work-nav:hover {
-  color: #afa9ec;
+  color: #26215c;
   background-image: none;
   align-self: center;
   font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
@@ -1282,6 +1283,8 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 99.9999%;
+  height: 99.99%;
 }
 
 .slide-nav-2 {
