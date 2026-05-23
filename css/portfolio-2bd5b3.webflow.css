@@ -324,8 +324,8 @@
 .tether-card {
   width: 27%;
   position: absolute;
-  top: 44%;
-  left: 70%;
+  top: 50%;
+  left: 65%;
   transform: rotate(-10deg);
 }
 
@@ -1054,6 +1054,10 @@
 .case-study-home-nav:hover {
   color: #8b2f6f;
   background-image: none;
+  align-self: center;
+  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-size: 1.5px;
+  text-decoration: none;
 }
 
 .case-study-work-nav {
@@ -1443,9 +1447,10 @@
 
 .singleimage {
   background-color: #26215c;
-  width: 90%;
+  border-radius: 10px;
+  width: 100%;
   height: auto;
-  margin: 5% 0% 7% 5%;
+  margin: 2% 0% 5% 2%;
 }
 
 .lightbox-link-14 {
@@ -2192,6 +2197,7 @@
 }
 
 .note {
+  text-align: left;
   margin-bottom: 2%;
   margin-left: 7%;
   font-style: italic;
@@ -2695,6 +2701,42 @@
   padding-top: 1%;
   padding-bottom: 1%;
   display: none;
+}
+
+.tetherslider {
+  background-color: #0000;
+  margin-top: 5%;
+  padding-top: 0%;
+}
+
+.slide-nav-18 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 15%;
+}
+
+.slide1tether {
+  background-image: url('../images/hello-mockup.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.slide2tether {
+  background-image: url('../images/anxious-or-numb-mockup.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.slide3tether {
+  background-image: url('../images/anxious-options-mockup.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5552,7 +5594,7 @@
   }
 
   .singleimage {
-    height: 60vh;
+    height: auto;
     margin-left: 5%;
   }
 
@@ -6081,7 +6123,8 @@
   }
 
   .singleimage {
-    height: 50vh;
+    height: auto;
+    margin-left: 2%;
   }
 
   .processbottom {
@@ -6733,7 +6776,7 @@
 
   .singleimage {
     width: 95vw;
-    height: 40vh;
+    height: auto;
     margin-left: 0%;
   }
 
