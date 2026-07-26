@@ -841,7 +841,7 @@
   color: #1a1028;
   width: 84.9758%;
   height: auto;
-  margin: 0% 5% 0% 10%;
+  margin: 0% 5% 1% 10%;
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -2706,6 +2706,7 @@
 .tetherslider {
   background-color: #0000;
   margin-top: 5%;
+  margin-bottom: 10%;
   padding-top: 0%;
 }
 
