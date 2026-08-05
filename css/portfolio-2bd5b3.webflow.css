@@ -2256,6 +2256,8 @@
 
 .body-3 {
   background-color: #1a1028;
+  border: 1px #000;
+  border-radius: 0;
 }
 
 .aboutbody {
@@ -3100,8 +3102,11 @@
 }
 
 .aboutslider {
-  background-color: #0000;
+  background-color: #1a0635;
+  border: 2px solid #afa9ec;
+  border-radius: 20px;
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .slide-21 {
