@@ -114,8 +114,12 @@
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
+}
+
+.work-nav:where(.w-variant-c3db283a-b217-ebe7-8a80-afc99b589335) {
+  text-decoration: underline;
 }
 
 .work-nav:hover {
@@ -131,8 +135,12 @@
   background-size: auto;
   align-self: center;
   margin-right: 0%;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
+}
+
+.about-nav:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
+  text-decoration: underline;
 }
 
 .about-nav:hover {
@@ -148,14 +156,23 @@
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
   display: block;
+}
+
+.home-nav:where(.w-variant-2d97cc15-e231-bcd2-fe53-edf37550fb8c) {
+  text-decoration: underline;
 }
 
 .home-nav:hover {
   color: #e8e4e4;
   background-image: none;
+}
+
+.home-nav:active {
+  align-self: center;
+  text-decoration: none;
 }
 
 .button {
@@ -205,7 +222,7 @@
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -222,7 +239,7 @@
   background-size: auto;
   align-self: center;
   margin-left: 2%;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -238,7 +255,7 @@
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -306,8 +323,11 @@
 
 .heading {
   color: #e8e4e4;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  max-width: 100%;
+  margin-top: 100px;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .desktopgrid2 {
@@ -315,14 +335,14 @@
 }
 
 .ikea-card {
-  width: 27%;
+  width: 25%;
   position: absolute;
   top: 19%;
   transform: rotate(11deg);
 }
 
 .tether-card {
-  width: 27%;
+  width: 25%;
   position: absolute;
   top: 50%;
   left: 65%;
@@ -338,12 +358,14 @@
 
 .heading-2 {
   color: #e8e4e4;
+  max-width: 100%;
   margin-top: 0;
   margin-bottom: 0%;
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 25px;
+  display: none;
 }
 
 .desktopgrid3 {
@@ -365,12 +387,13 @@
 .kidcommerce-card {
   width: 120%;
   max-width: 200%;
-  position: static;
+  position: relative;
   transform: rotate(8deg);
 }
 
 .section {
-  height: 90vh;
+  height: auto;
+  min-height: 100vh;
 }
 
 .body-2 {
@@ -439,7 +462,7 @@
   margin-bottom: 0;
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: .75rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: .75rem;
 }
 
@@ -468,11 +491,11 @@
   height: auto;
   margin-top: 0%;
   margin-bottom: 5%;
-  font-family: Gayathri, Impact, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.25em;
   font-weight: 400;
   line-height: 1.5rem;
-  display: block;
+  display: none;
   position: relative;
   top: 15px;
 }
@@ -517,7 +540,7 @@
 }
 
 .role {
-  color: #6155da;
+  color: #1a1028;
   width: 100%;
   min-width: 100%;
   max-width: 100%;
@@ -557,9 +580,9 @@
   margin-top: 10px;
   margin-bottom: 0%;
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
-  font-size: .9rem;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.15rem;
+  line-height: 1.2rem;
 }
 
 .slide-nav-4 {
@@ -600,30 +623,31 @@
 }
 
 .summaryobj {
-  color: #6155da;
+  color: #1a1028;
   width: 75%;
   height: auto;
   margin-top: 2%;
   margin-bottom: 2%;
   margin-left: 10%;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.75rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 2rem;
 }
 
-.howcanwe {
+.bodycopy {
   color: #1a1028;
   border-bottom: 1px #e8e4e49e;
   width: 85%;
   height: 100%;
+  min-height: auto;
   margin-top: 0%;
   margin-bottom: 0%;
   margin-left: 10%;
   padding-bottom: 0%;
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.25rem;
 }
 
@@ -689,7 +713,7 @@
 }
 
 .prototypetopimg {
-  width: 70%;
+  width: 95%;
   height: auto;
   margin-left: 10%;
   position: relative;
@@ -708,15 +732,15 @@
 }
 
 .casestudytitle {
-  color: #8b2f6f;
+  color: #1a1028;
   width: 100%;
   height: auto;
   margin-top: 0%;
   margin-bottom: auto;
   padding-top: 0%;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 2.75rem;
 }
 
@@ -741,12 +765,12 @@
 }
 
 .ikeaprototypetopimg {
-  width: 75%;
+  width: 40%;
   height: auto;
   margin-left: 0%;
   position: relative;
-  top: -2%;
-  left: 25%;
+  top: 0%;
+  left: 50%;
 }
 
 .left-arrow-2 {
@@ -1061,21 +1085,23 @@
 }
 
 .case-study-work-nav {
-  color: #8b2f6f;
+  color: #1a1028;
   background-color: #0000;
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
+  order: 0;
   align-self: center;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
+  text-decoration: underline;
 }
 
 .case-study-work-nav:hover {
-  color: #26215c;
+  color: #8b2f6f;
   background-image: none;
   align-self: center;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -1085,9 +1111,10 @@
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
+  order: 0;
   align-self: center;
   margin-right: 2%;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -1116,8 +1143,13 @@
   font-size: .75rem;
 }
 
+.case-study-button:where(.w-variant-6b776ca3-5d75-3d5e-c19b-f5dc6d8bd694) {
+  text-decoration: none;
+}
+
 .case-study-button:hover {
-  font-size: 1rem;
+  color: #8b2f6f;
+  font-size: .75rem;
   font-weight: 600;
 }
 
@@ -1125,8 +1157,13 @@
   color: #1a1028;
   background-color: #0000;
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
-  font-size: 1rem;
+  font-size: .75rem;
   font-weight: 600;
+  text-decoration: underline;
+}
+
+.current-case-study:hover {
+  color: #8b2f6f;
 }
 
 .div-block-6 {
@@ -1183,7 +1220,7 @@
   flex: none;
   align-self: center;
   margin-left: 2%;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -1200,7 +1237,7 @@
   background-size: auto;
   flex: none;
   align-self: center;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -1217,7 +1254,7 @@
   background-size: auto;
   flex: none;
   align-self: center;
-  font-family: Playfairdisplay Variablefont Wght, Arial, sans-serif;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -1226,13 +1263,17 @@
   background-image: none;
 }
 
+.container-3 {
+  display: none;
+}
+
 .tethertopimg {
-  width: 30%;
+  width: 40%;
   height: auto;
   margin-top: 5%;
   margin-left: 0%;
   position: relative;
-  top: auto;
+  top: 0;
   left: 50%;
 }
 
@@ -2198,8 +2239,10 @@
 
 .note {
   text-align: left;
+  width: auto;
   margin-bottom: 2%;
-  margin-left: 7%;
+  margin-left: 5%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-style: italic;
   font-weight: 300;
   text-decoration: none;
@@ -2215,7 +2258,7 @@
   background-color: #1a1028;
 }
 
-.letter {
+.aboutbody {
   color: #e8e4e4;
   width: 100%;
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
@@ -2234,6 +2277,7 @@
 
 .text-span-3 {
   color: #afa9ec;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -2640,6 +2684,10 @@
   margin-bottom: auto;
 }
 
+.mobilesection {
+  min-height: 100px;
+}
+
 .mobilephoto {
   display: none;
 }
@@ -2740,6 +2788,362 @@
   background-attachment: fixed;
 }
 
+.link-block-11, .link-block-12 {
+  position: relative;
+}
+
+.container-4 {
+  display: block;
+}
+
+.container-5 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.text-span-4 {
+  font-size: .75rem;
+  font-weight: 300;
+}
+
+.lists {
+  color: #1a1028;
+  border-bottom: 1px #e8e4e49e;
+  width: 90%;
+  height: 100%;
+  min-height: auto;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  margin-left: 10%;
+  padding-bottom: 0%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2rem;
+  position: relative;
+  left: 0%;
+}
+
+.decisionsimage {
+  width: 50%;
+  position: relative;
+  left: 40%;
+}
+
+.listsstack {
+  color: #1a1028;
+  border-bottom: 1px #e8e4e49e;
+  width: 85%;
+  height: 100%;
+  min-height: auto;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  padding-bottom: 0%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.bodycopystack {
+  color: #1a1028;
+  border-bottom: 1px #e8e4e49e;
+  width: 85%;
+  height: auto;
+  min-height: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  padding-bottom: 0%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  position: relative;
+  top: 15%;
+}
+
+.slidertether {
+  background-color: #0000;
+  height: auto;
+}
+
+.decisionsimage2 {
+  width: 50%;
+  position: relative;
+  left: 40%;
+}
+
+.mask-4 {
+  background-color: #bbb;
+}
+
+.slide-20 {
+  background-image: url('../images/breathing-portrait.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  width: auto;
+  min-width: 300px;
+  min-height: 200px;
+}
+
+.slider-4 {
+  width: auto;
+  height: auto;
+}
+
+.quick-stack-3, .quick-stack-4 {
+  position: relative;
+  left: 4%;
+}
+
+.bodycopystackbottom {
+  color: #1a1028;
+  border-bottom: 1px #e8e4e49e;
+  width: 85%;
+  height: auto;
+  min-height: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  padding-bottom: 2%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  position: relative;
+  top: -10%;
+  left: 8%;
+}
+
+.slide-nav-19 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.lists2 {
+  color: #1a1028;
+  border-bottom: 1px #e8e4e49e;
+  width: 85%;
+  height: 100%;
+  min-height: auto;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  padding-bottom: 0%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.tether-button {
+  color: #1a1028;
+  background-color: #0000;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1rem;
+}
+
+.tether-button:where(.w-variant-6b776ca3-5d75-3d5e-c19b-f5dc6d8bd694) {
+  text-decoration: underline;
+}
+
+.tether-button:hover {
+  color: #8b2f6f;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.ikea-button {
+  color: #1a1028;
+  background-color: #0000;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1rem;
+}
+
+.ikea-button:where(.w-variant-6b776ca3-5d75-3d5e-c19b-f5dc6d8bd694) {
+  text-decoration: none;
+}
+
+.ikea-button:where(.w-variant-f8af95b4-4aba-2b54-f3e7-db9cf7147e46) {
+  text-decoration: underline;
+}
+
+.ikea-button:hover {
+  color: #8b2f6f;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.kc-button {
+  color: #1a1028;
+  background-color: #0000;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1rem;
+}
+
+.kc-button:where(.w-variant-6b776ca3-5d75-3d5e-c19b-f5dc6d8bd694) {
+  text-decoration: none;
+}
+
+.kc-button:where(.w-variant-bd04969c-3ff4-f72f-aa0e-b36ea78ae2f6) {
+  text-decoration: underline;
+}
+
+.kc-button:hover {
+  color: #8b2f6f;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.onepay-button {
+  color: #1a1028;
+  background-color: #0000;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1rem;
+}
+
+.onepay-button:where(.w-variant-6b776ca3-5d75-3d5e-c19b-f5dc6d8bd694) {
+  text-decoration: none;
+}
+
+.onepay-button:where(.w-variant-c19e46d7-a1f8-a6ea-8897-16e96c1fbf96) {
+  text-decoration: underline;
+}
+
+.onepay-button:hover {
+  color: #8b2f6f;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.ikeaslider {
+  background-color: #0000;
+  height: auto;
+}
+
+.decisionsimageikea {
+  width: 50%;
+  position: relative;
+  left: 43%;
+}
+
+.decisionsimageikea2 {
+  width: 45%;
+  position: relative;
+  top: 0%;
+  left: 50%;
+}
+
+.decisionsimageikea3 {
+  width: 45%;
+  position: relative;
+  left: 0%;
+}
+
+.decisionsimageikea4 {
+  width: 50%;
+  position: relative;
+  left: 43%;
+}
+
+.kcslider {
+  background-color: #0000;
+  height: auto;
+}
+
+.decisionsimagekc {
+  width: 90%;
+  position: relative;
+  top: 0%;
+  left: 10%;
+}
+
+.decisionsimagekc2 {
+  width: 90%;
+  position: relative;
+  left: 0%;
+}
+
+.decisionsimagekc3 {
+  width: 90%;
+  position: relative;
+  top: 25%;
+  left: 10%;
+}
+
+.decisionsimagekc4 {
+  width: 90%;
+  position: relative;
+  top: 25px;
+  left: 5%;
+}
+
+.oneslider {
+  background-color: #0000;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.decisionsimageonepay, .decisionsimageonepay2, .decisionsimageonepay3 {
+  width: 100%;
+  position: relative;
+  left: 20%;
+}
+
+.text-span-5 {
+  font-size: 1.15rem;
+}
+
+.aboutslider {
+  background-color: #0000;
+  margin-top: 40px;
+}
+
+.slide-21 {
+  background-image: url('../images/aboutslide1.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.slide-22 {
+  background-image: url('../images/aboutslide2.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.slide-23 {
+  background-image: url('../images/aboutslide3.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.slide-24 {
+  background-image: url('../images/aboutslide4.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.slide-25 {
+  background-image: url('../images/aboutslide5.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
 @media screen and (min-width: 1280px) {
   .ikea-card {
     width: 25%;
@@ -2789,8 +3193,8 @@
 
   .role {
     height: auto;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
   }
 
   .iamaprototype {
@@ -2799,6 +3203,11 @@
 
   .image-4 {
     margin-left: 39%;
+  }
+
+  .timeline {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
   }
 
   .slide-nav-4 {
@@ -2819,7 +3228,13 @@
     font-size: 1.9rem;
   }
 
-  .howcanwe, .objtext {
+  .bodycopy {
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  .objtext {
     font-size: 1.5rem;
     line-height: 1.55rem;
   }
@@ -2835,7 +3250,7 @@
   }
 
   .ikeaprototypetopimg {
-    width: 100%;
+    width: 45%;
     height: auto;
     margin-left: 0%;
   }
@@ -2943,12 +3358,8 @@
     font-weight: 700;
   }
 
-  .case-study-button {
+  .case-study-button, .case-study-button:hover {
     font-size: 1.25rem;
-  }
-
-  .case-study-button:hover {
-    font-size: 1.5rem;
   }
 
   .current-case-study {
@@ -2963,7 +3374,7 @@
   }
 
   .tethertopimg {
-    width: 35%;
+    width: 45%;
     height: auto;
     margin-left: 0%;
   }
@@ -3463,9 +3874,46 @@
   .headingmobile, .heading-2-mobile {
     display: none;
   }
+
+  .text-span-4 {
+    font-size: 1rem;
+  }
+
+  .lists {
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  .listsstack, .bodycopystack {
+    font-size: 1.5rem;
+    line-height: 1.55rem;
+  }
+
+  .slidertether {
+    margin-bottom: 5%;
+  }
+
+  .bodycopystackbottom, .lists2 {
+    font-size: 1.5rem;
+    line-height: 1.55rem;
+  }
+
+  .tether-button, .tether-button:hover, .ikea-button, .ikea-button:hover, .kc-button, .kc-button:hover, .onepay-button, .onepay-button:hover {
+    font-size: 1.25rem;
+  }
+
+  .ikeaslider, .kcslider, .oneslider {
+    margin-bottom: 5%;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .tether-card {
+    top: 52%;
+    left: 68%;
+  }
+
   .onepay-card {
     width: 150%;
     top: -38%;
@@ -3541,13 +3989,15 @@
 
   .summaryobj {
     margin-left: 5%;
+    font-size: 2.5rem;
   }
 
-  .howcanwe {
-    width: 100%;
-    margin-left: 2%;
+  .bodycopy {
+    width: 95%;
+    margin-bottom: 5%;
+    margin-left: 4%;
     font-size: 1.75rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
   }
 
   .prototypebottomimg {
@@ -3578,12 +4028,12 @@
   }
 
   .ikeaprototypetopimg {
-    width: 100%;
+    width: 55%;
     height: auto;
     margin-left: 0%;
     position: relative;
     top: 0%;
-    left: 0%;
+    left: 25%;
   }
 
   .image-17 {
@@ -3706,6 +4156,10 @@
     margin-left: 0%;
     position: relative;
     left: 26%;
+  }
+
+  .case-study-button:hover {
+    font-size: 1.25rem;
   }
 
   .curly-bracket-right {
@@ -4255,12 +4709,76 @@
   .headingmobile, .heading-2-mobile, .mobilephoto, .mobileletter {
     display: none;
   }
+
+  .container-5 {
+    width: auto;
+    max-width: 940px;
+  }
+
+  .lists {
+    width: 95%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .listsstack {
+    width: 100%;
+    margin-left: 2%;
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .bodycopystack {
+    width: 90%;
+    margin-left: 2%;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    top: 0%;
+  }
+
+  .slidertether {
+    margin-bottom: 5%;
+  }
+
+  .bodycopystackbottom {
+    width: 100%;
+    margin-left: 2%;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    left: 0%;
+  }
+
+  .lists2 {
+    width: 100%;
+    margin-left: 2%;
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .quick-stack-6 {
+    margin-bottom: 0%;
+  }
+
+  .tether-button:hover, .ikea-button:hover, .kc-button:hover, .onepay-button:hover {
+    font-size: 1.25rem;
+  }
+
+  .ikeaslider, .kcslider, .oneslider {
+    margin-bottom: 5%;
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .heading {
     font-size: 4.5rem;
     line-height: 4.5rem;
+  }
+
+  .tether-card {
+    top: 60%;
+    left: 70%;
   }
 
   .heading-2 {
@@ -4274,14 +4792,15 @@
 
   .onepay-card {
     width: 200%;
-    top: 25%;
+    top: -32%;
+    left: -92%;
   }
 
   .kidcommerce-card {
-    width: 90%;
-    position: absolute;
-    top: 46%;
-    left: 85%;
+    width: 200%;
+    position: relative;
+    top: -11%;
+    left: -25%;
   }
 
   .ikeanarrationtextlargeviewmobile {
@@ -4386,7 +4905,7 @@
     font-size: 2.5rem;
   }
 
-  .howcanwe {
+  .bodycopy {
     width: 100%;
     margin-top: 0%;
     margin-left: 0%;
@@ -4440,11 +4959,11 @@
   }
 
   .ikeaprototypetopimg {
-    width: 150%;
+    width: 60%;
     max-width: 200%;
     height: auto;
     margin-left: 0%;
-    left: -25%;
+    left: 35%;
   }
 
   .slide-nav-3 {
@@ -4458,7 +4977,7 @@
   }
 
   .div-block-4 {
-    width: 150%;
+    width: 100%;
     height: auto;
     margin-top: 15%;
   }
@@ -4580,6 +5099,10 @@
     background-size: contain;
   }
 
+  .div-block-5 {
+    width: auto;
+  }
+
   .newprototypeannounce {
     color: #bf7e96;
     margin-top: 5%;
@@ -4604,16 +5127,8 @@
     left: 0%;
   }
 
-  .case-study-button {
+  .case-study-button, .case-study-button:hover, .current-case-study {
     font-size: 1.6rem;
-  }
-
-  .case-study-button:hover {
-    font-size: 1.85rem;
-  }
-
-  .current-case-study {
-    font-size: 2rem;
   }
 
   .curly-bracket-right {
@@ -4635,7 +5150,7 @@
     max-width: 200%;
     height: auto;
     margin-left: 0%;
-    left: 0%;
+    left: 15%;
   }
 
   .objtext-2 {
@@ -4768,11 +5283,11 @@
   }
 
   .div-block-4-tether {
-    width: 150%;
+    width: 100%;
     height: auto;
     margin-top: 15%;
     position: relative;
-    right: 25%;
+    right: auto;
   }
 
   .mobileobjh3 {
@@ -5094,8 +5609,13 @@
     line-height: 2.2rem;
   }
 
-  .letter {
-    width: 150%;
+  .link-block-2 {
+    position: absolute;
+    top: 8%;
+  }
+
+  .aboutbody {
+    width: 100%;
     font-size: 1.5rem;
     line-height: 2rem;
   }
@@ -5314,6 +5834,10 @@
     display: none;
   }
 
+  .desktopgrid {
+    min-width: 150%;
+  }
+
   .quick-stack-2 {
     width: 100%;
   }
@@ -5323,18 +5847,100 @@
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  .link-block-13 {
+    width: 100%;
+    position: absolute;
+    top: 56%;
+    left: 0%;
+  }
+
+  .container-5 {
+    width: auto;
+    max-width: 1240px;
+  }
+
+  .text-span-4 {
+    font-size: 1.25rem;
+  }
+
+  .lists, .listsstack {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  .bodycopystack {
+    width: 90%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    top: 0%;
+  }
+
+  .quick-stack-4 {
+    left: 2%;
+  }
+
+  .bodycopystackbottom {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    left: 0%;
+  }
+
+  .lists2 {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  .quick-stack-5 {
+    width: auto;
+    height: auto;
+  }
+
+  .tether-button, .tether-button:hover, .ikea-button, .ikea-button:hover, .kc-button, .kc-button:hover, .onepay-button, .onepay-button:hover {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (max-width: 991px) {
   .work-nav, .about-nav, .home-nav {
     flex: none;
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  }
+
+  .email-footer, .linkedin-footer, .resume-footer {
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   }
 
   .footer-section {
     margin-top: 10%;
   }
 
-  .heading, .heading-2 {
+  .heading {
+    padding-left: 5%;
+    font-weight: 500;
+  }
+
+  .ikea-card {
+    width: 27%;
+  }
+
+  .tether-card {
+    width: 27%;
+    top: 44%;
+  }
+
+  .heading-2 {
     padding-left: 5%;
   }
 
@@ -5344,7 +5950,15 @@
   }
 
   .onepay-card {
+    width: 100%;
+    top: -62%;
     left: 10%;
+  }
+
+  .kidcommerce-card {
+    width: 100%;
+    top: -32%;
+    left: -25%;
   }
 
   .link-block {
@@ -5411,7 +6025,7 @@
     text-decoration: none;
   }
 
-  .howcanwe {
+  .bodycopy {
     margin-left: 0%;
     padding-left: 5%;
   }
@@ -5542,6 +6156,10 @@
     right: 50%;
   }
 
+  .case-study-work-nav, .case-study-work-nav:hover, .case-study-about-nav {
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  }
+
   .curly-bracket-right {
     top: 35%;
     left: 95%;
@@ -5550,6 +6168,10 @@
   .curly-bracket-left {
     top: 35%;
     left: -5%;
+  }
+
+  .linkedin-footer-case-study, .email-footer-case-study, .resume-footer-case-study {
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   }
 
   .tethertopimg {
@@ -5864,8 +6486,24 @@
     display: none;
   }
 
+  .mobilesection {
+    display: none;
+  }
+
   .linkedin-nav, .email-nav, .resume-nav {
     flex: none;
+  }
+
+  .container-5 {
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .lists, .listsstack, .bodycopystack, .bodycopystackbottom, .lists2 {
+    margin-left: 0%;
+    padding-left: 5%;
   }
 }
 
@@ -5933,11 +6571,12 @@
     line-height: 1.5rem;
   }
 
-  .howcanwe {
+  .bodycopy {
     width: 100%;
+    margin-bottom: 5%;
     margin-left: 0%;
     font-size: .9375rem;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
   }
 
   .sliderdiscoveryikea {
@@ -6360,6 +6999,8 @@
   }
 
   .headingmobile {
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+    font-weight: 400;
     line-height: 2.5rem;
     display: block;
   }
@@ -6367,7 +7008,7 @@
   .heading-2-mobile {
     margin-top: 3%;
     line-height: 1.5rem;
-    display: block;
+    display: none;
   }
 
   .desktopgrid, .mobilephoto, .mobileletter {
@@ -6381,11 +7022,62 @@
 
   .linkedin-nav, .email-nav, .resume-nav {
     flex: none;
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   }
 
   .nav-on-mobile {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
     flex-flow: wrap;
     display: flex;
+  }
+
+  .lists {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    font-size: .9375rem;
+    line-height: 2rem;
+  }
+
+  .listsstack {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 0%;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+  }
+
+  .bodycopystack {
+    width: 90%;
+    margin-left: 0%;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    top: 0%;
+  }
+
+  .bodycopystackbottom {
+    width: 90%;
+    margin-left: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+  }
+
+  .lists2 {
+    width: 100%;
+    margin-left: 0%;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+  }
+
+  .slide-21, .slide-22, .slide-23, .slide-24, .slide-25 {
+    background-size: 90%;
+  }
+
+  .right-arrow-8, .left-arrow-7, .icon-19, .icon-20 {
+    display: none;
   }
 }
 
@@ -6494,7 +7186,7 @@
     line-height: 1.5rem;
   }
 
-  .howcanwe {
+  .bodycopy {
     width: 100%;
     margin-left: 0%;
     padding-left: 2%;
@@ -6568,6 +7260,7 @@
 
   .icon-5 {
     margin-left: -25%;
+    display: none;
   }
 
   .icon-6 {
@@ -7116,7 +7809,7 @@
     display: block;
   }
 
-  .letter {
+  .aboutbody {
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
@@ -7245,6 +7938,7 @@
   }
 
   .headingmobile {
+    font-weight: 400;
     line-height: 3rem;
     display: block;
   }
@@ -7252,7 +7946,7 @@
   .heading-2-mobile {
     margin-top: 5%;
     line-height: 2rem;
-    display: block;
+    display: none;
   }
 
   .desktopgrid {
@@ -7290,6 +7984,64 @@
     align-content: flex-start;
     display: flex;
   }
+
+  .lists {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 2%;
+    font-size: .9375rem;
+    line-height: 1.75rem;
+  }
+
+  .listsstack {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 2%;
+    font-size: .9375rem;
+  }
+
+  .bodycopystack {
+    width: 98%;
+    height: 100%;
+    margin-left: 0%;
+    padding-left: 0%;
+    font-size: .9375rem;
+  }
+
+  .slidertether {
+    margin-bottom: 10%;
+  }
+
+  .bodycopystackbottom {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 2%;
+    font-size: .9375rem;
+  }
+
+  .slide-nav-19 {
+    margin-bottom: -15px;
+    padding-bottom: 0;
+  }
+
+  .lists2 {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 2%;
+    font-size: .9375rem;
+  }
+
+  .quick-stack-6 {
+    padding-left: 0;
+  }
+
+  .tether-button, .ikea-button, .kc-button, .onepay-button {
+    flex: none;
+  }
+
+  .ikeaslider, .kcslider, .oneslider {
+    margin-bottom: 10%;
+  }
 }
 
 #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
@@ -7303,22 +8055,14 @@
   grid-template-columns: .75fr 1fr;
 }
 
-#w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93 {
-  grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
-  display: none;
+#w-node-_4f9398b9-a655-e6d0-4ace-f9c67f5394cd-47359f93 {
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
 }
 
-#w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93 {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  display: none;
-}
-
-#w-node-b8c0e04c-3177-f62d-3934-6d6decec409c-47359f93 {
+#w-node-_04ac96ad-30b1-e0bc-8649-68605eb3ce5e-47359f93, #w-node-_84e47eb1-9136-79ba-5d0d-b1db1f2f21c6-47359f93, #w-node-_4f9398b9-a655-e6d0-4ace-f9c67f5394ba-47359f93 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
-  display: none;
 }
 
 #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-4be67fd9 {
@@ -7326,85 +8070,65 @@
   grid-template-columns: .75fr 1fr;
 }
 
-#w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9 {
-  grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
-  display: none;
-}
-
-#w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9 {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  display: none;
-}
-
-#w-node-b8c0e04c-3177-f62d-3934-6d6decec409c-4be67fd9 {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-  display: none;
-}
-
-#w-node-deafcc2e-94b8-a450-cdd8-d372697877e9-e4db8f43 {
-  grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
-}
-
-#w-node-deafcc2e-94b8-a450-cdd8-d372697877fb-e4db8f43 {
-  grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
-  display: none;
-}
-
-#w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43 {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  display: none;
-}
-
-#w-node-_7963030a-c30e-0d6b-fab8-c139fa5a839f-aedb9bf1 {
+#w-node-_9f296dcd-42a2-5f79-e8ed-9f1e9b06523b-4be67fd9, #w-node-_02e56675-0f4a-8674-c2ec-cf38577c33ef-4be67fd9 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
 
-#w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
+#w-node-a4cfc3f0-a9eb-7513-bcf6-e08345c82393-4be67fd9 {
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-ed50aa57-80e4-7899-9d2d-748d33e2f2f1-4be67fd9 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#w-node-e472cc21-8fb2-e21d-7dde-871632b15a84-e4db8f43 {
   grid-template-rows: auto;
   grid-template-columns: .75fr 1fr;
 }
 
-#w-node-affa69b7-a509-1ed3-2668-89839ac705e0-187afa52 {
+#w-node-e472cc21-8fb2-e21d-7dde-871632b15ac5-e4db8f43, #w-node-e472cc21-8fb2-e21d-7dde-871632b15ad8-e4db8f43, #w-node-dcf56999-b9a6-6b10-b599-ed31921bb8f5-e4db8f43 {
   grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
-  display: none;
+  grid-template-columns: 1fr 1fr;
 }
 
-#w-node-affa69b7-a509-1ed3-2668-89839ac70621-187afa52 {
+#w-node-_325bb433-3b91-8752-d306-ee7584dde20a-187afa52 {
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: .75fr 1fr;
+}
+
+#w-node-_325bb433-3b91-8752-d306-ee7584dde25e-187afa52 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_325bb433-3b91-8752-d306-ee7584dde234-187afa52 {
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-_325bb433-3b91-8752-d306-ee7584dde236-187afa52, #w-node-_325bb433-3b91-8752-d306-ee7584dde24b-187afa52 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (min-width: 1920px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d372697877fb-e4db8f43, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43 {
-    display: none;
-  }
-
-  #w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr .75fr;
-  }
-
-  #w-node-affa69b7-a509-1ed3-2668-89839ac705e0-187afa52 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
     display: none;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43, #w-node-affa69b7-a509-1ed3-2668-89839ac705e0-187afa52 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
     display: none;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
     display: none;
   }
 }
@@ -7414,31 +8138,9 @@
     display: none;
   }
 
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93 {
+  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-4be67fd9, #w-node-e472cc21-8fb2-e21d-7dde-871632b15a84-e4db8f43, #w-node-_325bb433-3b91-8752-d306-ee7584dde20a-187afa52 {
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
-  }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93 {
-    display: none;
-  }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-4be67fd9 {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9 {
-    display: none;
-  }
-
-  #w-node-deafcc2e-94b8-a450-cdd8-d372697877e9-e4db8f43 {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #w-node-deafcc2e-94b8-a450-cdd8-d372697877fb-e4db8f43, #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43 {
-    display: none;
   }
 }
 
@@ -7446,50 +8148,10 @@
   #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
     display: grid;
   }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9, #w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
-    display: none;
-  }
-
-  #w-node-affa69b7-a509-1ed3-2668-89839ac705e0-187afa52 {
-    display: grid;
-  }
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
-    display: grid;
-  }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93 {
-    display: none;
-  }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-47359f93 {
-    display: grid;
-  }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec409c-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-4be67fd9 {
-    display: none;
-  }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f92-4be67fd9 {
-    display: grid;
-  }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3fda-4be67fd9, #w-node-b8c0e04c-3177-f62d-3934-6d6decec409c-4be67fd9, #w-node-deafcc2e-94b8-a450-cdd8-d372697877e9-e4db8f43 {
-    display: none;
-  }
-
-  #w-node-deafcc2e-94b8-a450-cdd8-d372697877fb-e4db8f43 {
-    display: grid;
-  }
-
-  #w-node-deafcc2e-94b8-a450-cdd8-d37269787843-e4db8f43, #w-node-_7963030a-c30e-0d6b-fab8-c139fa5a839f-aedb9bf1, #w-node-affa69b7-a509-1ed3-2668-89839ac705cd-187afa52 {
-    display: none;
-  }
-
-  #w-node-affa69b7-a509-1ed3-2668-89839ac705e0-187afa52 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-4be67fd9, #w-node-e472cc21-8fb2-e21d-7dde-871632b15a84-e4db8f43, #w-node-_325bb433-3b91-8752-d306-ee7584dde20a-187afa52 {
     display: grid;
   }
 }
