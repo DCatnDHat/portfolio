@@ -335,14 +335,14 @@
 }
 
 .ikea-card {
-  width: 22%;
+  width: 23%;
   position: absolute;
   top: 19%;
   transform: rotate(11deg);
 }
 
 .tether-card {
-  width: 22%;
+  width: 23%;
   position: absolute;
   top: 50%;
   left: 65%;
@@ -3163,11 +3163,11 @@
 
 @media screen and (min-width: 1280px) {
   .ikea-card {
-    width: 22%;
+    width: 23%;
   }
 
   .tether-card {
-    width: 22%;
+    width: 23%;
     top: 47%;
   }
 
