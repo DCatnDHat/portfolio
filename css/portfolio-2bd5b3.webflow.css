@@ -46,22 +46,6 @@
   font-display: swap;
 }
 
-.w-layout-blockcontainer {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.w-layout-grid {
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
 .w-layout-layout {
   grid-row-gap: 20px;
   grid-column-gap: 20px;
@@ -75,6 +59,13 @@
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
@@ -325,6 +316,7 @@
   color: #e8e4e4;
   max-width: 100%;
   margin-top: 100px;
+  margin-left: 0%;
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
@@ -335,18 +327,19 @@
 }
 
 .ikea-card {
-  width: 25%;
+  width: 26%;
   position: absolute;
-  top: 19%;
+  top: 50%;
+  left: 67%;
   transform: rotate(11deg);
 }
 
 .tether-card {
-  width: 25%;
+  width: 26%;
   position: absolute;
-  top: 50%;
-  left: 65%;
-  transform: rotate(-10deg);
+  top: 19%;
+  left: auto;
+  transform: none;
 }
 
 .text-span {
@@ -377,7 +370,7 @@
 }
 
 .onepay-card {
-  width: 120%;
+  width: 110%;
   max-width: 200%;
   position: relative;
   bottom: 15%;
@@ -385,9 +378,10 @@
 }
 
 .kidcommerce-card {
-  width: 120%;
+  width: 110%;
   max-width: 200%;
   position: relative;
+  right: 15%;
   transform: rotate(8deg);
 }
 
@@ -2794,6 +2788,10 @@
   position: relative;
 }
 
+.link-block-13 {
+  position: static;
+}
+
 .container-4 {
   display: block;
 }
@@ -3161,14 +3159,46 @@
   display: none;
 }
 
+.quick-stack-7 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.quick-stack-8 {
+  margin: 7% 5% 0;
+}
+
+.image-40, .image-41, .image-42 {
+  width: 100%;
+}
+
+.summaryobjbottom {
+  color: #1a1028;
+  width: 75%;
+  height: auto;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
 @media screen and (min-width: 1280px) {
+  .heading {
+    font-size: 2.75rem;
+  }
+
   .ikea-card {
     width: 25%;
   }
 
   .tether-card {
-    width: 25%;
-    top: 47%;
+    width: 23%;
+    top: 14%;
   }
 
   .onepay-card, .kidcommerce-card {
@@ -3923,17 +3953,31 @@
   .ikeaslider, .kcslider, .oneslider {
     margin-bottom: 5%;
   }
+
+  .image-40, .image-41, .image-42 {
+    width: 120%;
+    max-width: none;
+  }
+
+  .summaryobjbottom {
+    font-size: 1.9rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .heading {
+    font-size: 3rem;
+  }
+
   .tether-card {
-    top: 52%;
-    left: 68%;
+    width: 23%;
+    top: 13%;
+    left: 53%;
   }
 
   .onepay-card {
     width: 150%;
-    top: -38%;
+    top: -77%;
   }
 
   .kidcommerce-card {
@@ -4785,17 +4829,43 @@
   .ikeaslider, .kcslider, .oneslider {
     margin-bottom: 5%;
   }
+
+  .quick-stack-8 {
+    margin-top: 10%;
+  }
+
+  .image-40, .image-41, .image-42 {
+    width: 135%;
+  }
+
+  .summaryobjbottom {
+    margin-left: 5%;
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .heading {
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 4.5rem;
   }
 
+  .ikea-card {
+    width: 23%;
+    display: inline-block;
+    position: absolute;
+    top: 19%;
+    bottom: 0%;
+    left: 75%;
+    transform: none;
+  }
+
   .tether-card {
-    top: 60%;
-    left: 70%;
+    width: 22%;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: none;
   }
 
   .heading-2 {
@@ -4808,16 +4878,18 @@
   }
 
   .onepay-card {
-    width: 200%;
-    top: -32%;
+    width: 190%;
+    top: -70%;
     left: -92%;
+    transform: none;
   }
 
   .kidcommerce-card {
-    width: 200%;
+    width: 190%;
     position: relative;
-    top: -11%;
+    top: -43%;
     left: -25%;
+    transform: none;
   }
 
   .ikeanarrationtextlargeviewmobile {
@@ -5927,6 +5999,36 @@
   .tether-button, .tether-button:hover, .ikea-button, .ikea-button:hover, .kc-button, .kc-button:hover, .onepay-button, .onepay-button:hover {
     font-size: 1.6rem;
   }
+
+  .section-7 {
+    width: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .link-block-14 {
+    width: auto;
+  }
+
+  .image-39 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .quick-stack-7 {
+    height: auto;
+  }
+
+  .image-40, .image-41, .image-42 {
+    width: 155%;
+  }
+
+  .summaryobjbottom {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -5941,6 +6043,7 @@
 
   .footer-section {
     margin-top: 10%;
+    display: block;
   }
 
   .heading {
@@ -5949,12 +6052,12 @@
   }
 
   .ikea-card {
-    width: 24%;
+    width: 27%;
   }
 
   .tether-card {
-    width: 24%;
-    top: 44%;
+    width: 27%;
+    top: 25%;
   }
 
   .heading-2 {
@@ -6530,6 +6633,15 @@
   .code-embed-tablet {
     display: block;
   }
+
+  .summaryobjbottom {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-decoration: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -6537,8 +6649,25 @@
     flex: none;
   }
 
-  .nav-section, .nav-section:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc), .footer-section {
+  .nav-section {
+    display: none;
+  }
+
+  .nav-section:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
     display: flex;
+  }
+
+  .footer-section {
+    display: none;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .tether-card {
+    width: 35%;
+    top: 32%;
   }
 
   .desktopgrid3 {
@@ -7113,8 +7242,14 @@
     display: block;
   }
 
-  .code-embed-mobile-portait, .code-embed-tablet {
+  .code-embed-mobile-portait, .code-embed-tablet, .section-8 {
     display: none;
+  }
+
+  .summaryobjbottom {
+    margin-left: 0%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -7135,7 +7270,7 @@
   .nav-section {
     flex-flow: wrap;
     align-content: flex-start;
-    display: flex;
+    display: none;
   }
 
   .nav-section:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
@@ -7144,7 +7279,7 @@
 
   .footer-section {
     margin-bottom: 1%;
-    display: flex;
+    display: none;
   }
 
   .heading {
@@ -7156,7 +7291,15 @@
     line-height: 2rem;
   }
 
-  .desktopgrid3, .ikeanarrationtextlargeviewmobile, .fullresearchlink {
+  .desktopgrid3 {
+    display: none;
+  }
+
+  .section {
+    display: block;
+  }
+
+  .ikeanarrationtextlargeviewmobile, .fullresearchlink {
     display: none;
   }
 
@@ -7997,6 +8140,7 @@
 
   .mobilesection {
     margin-top: 5%;
+    display: none;
   }
 
   .mobilephoto {
@@ -8092,6 +8236,31 @@
   .code-embed-mobile-portait {
     display: block;
   }
+
+  .section-7 {
+    display: none;
+  }
+
+  .section-8 {
+    display: block;
+  }
+
+  .summaryobjbottom {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+
+#w-node-_5b6c263a-3172-4c79-a61f-45ec99bbcf4f-3c442d28 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-bfc45d02-ae0f-1f6b-21d1-a33b429499b8-3c442d28 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
