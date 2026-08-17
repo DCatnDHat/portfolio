@@ -99,65 +99,68 @@
 }
 
 .work-nav {
-  color: #afa9ec;
+  color: #e8e4e4;
   background-color: #0000;
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
 .work-nav:where(.w-variant-c3db283a-b217-ebe7-8a80-afc99b589335) {
+  color: #e8e4e4;
   text-decoration: underline;
 }
 
 .work-nav:hover {
-  color: #e8e4e4;
+  color: #b1a97b;
   background-image: none;
 }
 
 .about-nav {
-  color: #afa9ec;
+  color: #e8e4e4;
   background-color: #0000;
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
   margin-right: 0%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
 .about-nav:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
+  color: #e8e4e4;
   text-decoration: underline;
 }
 
 .about-nav:hover {
-  color: #e8e4e4;
+  color: #b1a97b;
   background-image: none;
 }
 
 .home-nav {
-  color: #afa9ec;
+  color: #e8e4e4;
   text-align: center;
   background-color: #0000;
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
   display: block;
 }
 
 .home-nav:where(.w-variant-2d97cc15-e231-bcd2-fe53-edf37550fb8c) {
+  color: #e8e4e4;
   text-decoration: underline;
 }
 
 .home-nav:hover {
-  color: #e8e4e4;
+  color: #b1a97b;
   background-image: none;
 }
 
@@ -207,13 +210,13 @@
 }
 
 .email-footer {
-  color: #afa9ec;
+  color: #e8e4e4;
   background-color: #0000;
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -223,14 +226,14 @@
 }
 
 .linkedin-footer {
-  color: #afa9ec;
+  color: #e8e4e4;
   background-color: #0000;
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
   margin-left: 2%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -240,13 +243,13 @@
 }
 
 .resume-footer {
-  color: #afa9ec;
+  color: #e8e4e4;
   background-color: #0000;
   background-image: none;
   background-repeat: repeat;
   background-size: auto;
   align-self: center;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -275,10 +278,13 @@
 .logo {
   vertical-align: baseline;
   order: -9999;
-  width: 10%;
+  width: 20%;
+  margin-left: 60px;
+  padding-left: 0;
   display: inline-flex;
   position: relative;
-  right: 58%;
+  left: -40%;
+  right: auto;
 }
 
 .logo-footer {
@@ -317,7 +323,7 @@
   max-width: 100%;
   margin-top: 100px;
   margin-left: 0%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
 }
@@ -335,7 +341,7 @@
 }
 
 .tether-card {
-  width: 26%;
+  width: 23%;
   position: absolute;
   top: 19%;
   left: auto;
@@ -392,7 +398,7 @@
 
 .body-2 {
   color: #1a1028;
-  background-color: #eeedfe;
+  background-color: #d4dfeb;
 }
 
 .processsection {
@@ -535,12 +541,13 @@
 
 .role {
   color: #1a1028;
+  text-align: right;
   width: 100%;
   min-width: 100%;
   max-width: 100%;
   height: auto;
-  margin-top: 10px;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  margin-top: 20px;
+  font-family: PT Sans, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1rem;
@@ -569,11 +576,12 @@
 
 .timeline {
   color: #1a1028;
+  text-align: right;
   width: 100%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 0%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2rem;
@@ -623,7 +631,7 @@
   margin-top: 2%;
   margin-bottom: 2%;
   margin-left: 10%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2rem;
@@ -639,7 +647,7 @@
   margin-bottom: 0%;
   margin-left: 10%;
   padding-bottom: 0%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.25rem;
@@ -727,13 +735,14 @@
 
 .casestudytitle {
   color: #1a1028;
+  text-align: right;
   width: 100%;
   height: auto;
   margin-top: 0%;
   margin-bottom: auto;
   padding-top: 0%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
-  font-size: 2.5rem;
+  font-family: PT Sans, sans-serif;
+  font-size: 4rem;
   font-weight: 600;
   line-height: 2.75rem;
 }
@@ -1050,10 +1059,11 @@
 .case-study-logo {
   vertical-align: baseline;
   order: -9999;
-  width: 10%;
+  width: 20%;
+  margin-left: 60px;
   display: inline-flex;
   position: relative;
-  right: 58%;
+  right: 40%;
 }
 
 .case-study-home-nav {
@@ -1086,16 +1096,16 @@
   background-size: auto;
   order: 0;
   align-self: center;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
   text-decoration: underline;
 }
 
 .case-study-work-nav:hover {
-  color: #8b2f6f;
+  color: #b1a97b;
   background-image: none;
   align-self: center;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -1108,12 +1118,12 @@
   order: 0;
   align-self: center;
   margin-right: 2%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
 .case-study-about-nav:hover {
-  color: #8b2f6f;
+  color: #b1a97b;
   background-image: none;
 }
 
@@ -1126,7 +1136,8 @@
 .breadcrumb-nav {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
-  justify-content: flex-end;
+  background-color: #26215c;
+  justify-content: center;
   display: flex;
 }
 
@@ -1214,12 +1225,12 @@
   flex: none;
   align-self: center;
   margin-left: 2%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
 .linkedin-footer-case-study:hover {
-  color: #8b2f6f;
+  color: #b1a97b;
   background-image: none;
 }
 
@@ -1231,12 +1242,12 @@
   background-size: auto;
   flex: none;
   align-self: center;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
 .email-footer-case-study:hover {
-  color: #8b2f6f;
+  color: #b1a97b;
   background-image: none;
 }
 
@@ -1248,12 +1259,12 @@
   background-size: auto;
   flex: none;
   align-self: center;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1.5rem;
 }
 
 .resume-footer-case-study:hover {
-  color: #8b2f6f;
+  color: #b1a97b;
   background-image: none;
 }
 
@@ -1724,7 +1735,7 @@
 }
 
 .slideronepay {
-  background-color: #0000;
+  background-color: #5c627b;
   width: 99.9501%;
   height: 50vh;
   margin-top: 5%;
@@ -2272,7 +2283,7 @@
 }
 
 .text-span-3 {
-  color: #afa9ec;
+  color: #b1a97b;
   font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   font-size: 1.5rem;
 }
@@ -2826,9 +2837,9 @@
 }
 
 .decisionsimage {
-  width: 50%;
+  width: 60%;
   position: relative;
-  left: 40%;
+  left: 25%;
 }
 
 .listsstack {
@@ -2857,23 +2868,25 @@
   margin-bottom: 0%;
   margin-left: 0%;
   padding-bottom: 0%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.25rem;
   position: relative;
   top: 15%;
+  left: 15%;
 }
 
 .slidertether {
-  background-color: #0000;
+  background-color: #c8dcfe;
   height: auto;
+  overflow: hidden;
 }
 
 .decisionsimage2 {
-  width: 50%;
+  width: 60%;
   position: relative;
-  left: 40%;
+  left: 25%;
 }
 
 .mask-4 {
@@ -2896,7 +2909,15 @@
   height: auto;
 }
 
-.quick-stack-3, .quick-stack-4 {
+.quick-stack-3 {
+  position: relative;
+  left: 4%;
+}
+
+.quick-stack-4 {
+  flex: 0 auto;
+  height: 100%;
+  min-height: 100%;
   position: relative;
   left: 4%;
 }
@@ -2904,20 +2925,23 @@
 .bodycopystackbottom {
   color: #1a1028;
   border-bottom: 1px #e8e4e49e;
+  flex: 0 auto;
+  align-self: center;
   width: 85%;
   height: auto;
   min-height: auto;
   margin-top: 0%;
   margin-bottom: 0%;
   margin-left: 0%;
-  padding-bottom: 2%;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  padding-bottom: 0%;
+  font-family: PT Sans, sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.25rem;
+  line-height: 1.3rem;
   position: relative;
-  top: -10%;
-  left: 8%;
+  top: 25%;
+  left: 15%;
+  overflow: visible;
 }
 
 .slide-nav-19 {
@@ -2941,10 +2965,16 @@
   line-height: 2rem;
 }
 
+.quick-stack-6 {
+  height: auto;
+  min-height: auto;
+  overflow: visible;
+}
+
 .tether-button {
-  color: #1a1028;
+  color: #e8e4e4;
   background-color: #0000;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1rem;
 }
 
@@ -2953,15 +2983,15 @@
 }
 
 .tether-button:hover {
-  color: #8b2f6f;
+  color: #b1a97b;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .ikea-button {
-  color: #1a1028;
+  color: #e8e4e4;
   background-color: #0000;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1rem;
 }
 
@@ -2974,15 +3004,15 @@
 }
 
 .ikea-button:hover {
-  color: #8b2f6f;
+  color: #b1a97b;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .kc-button {
-  color: #1a1028;
+  color: #e8e4e4;
   background-color: #0000;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1rem;
 }
 
@@ -2995,15 +3025,15 @@
 }
 
 .kc-button:hover {
-  color: #8b2f6f;
+  color: #b1a97b;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .onepay-button {
-  color: #1a1028;
+  color: #e8e4e4;
   background-color: #0000;
-  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 1rem;
 }
 
@@ -3016,44 +3046,41 @@
 }
 
 .onepay-button:hover {
-  color: #8b2f6f;
+  color: #b1a97b;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .ikeaslider {
-  background-color: #0000;
+  background-color: #e4dd95;
   height: auto;
+  padding-top: 0;
 }
 
 .decisionsimageikea {
-  width: 50%;
+  width: 60%;
   position: relative;
-  left: 43%;
+  left: 30%;
 }
 
-.decisionsimageikea2 {
-  width: 45%;
+.decisionsimageikea2, .decisionsimageikea3 {
+  width: 60%;
   position: relative;
   top: 0%;
-  left: 50%;
-}
-
-.decisionsimageikea3 {
-  width: 45%;
-  position: relative;
-  left: 0%;
+  left: 20%;
 }
 
 .decisionsimageikea4 {
-  width: 50%;
+  width: 60%;
   position: relative;
-  left: 43%;
+  left: 30%;
 }
 
 .kcslider {
-  background-color: #0000;
+  background-color: #9db9d5;
   height: auto;
+  margin-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 .decisionsimagekc {
@@ -3072,8 +3099,8 @@
 .decisionsimagekc3 {
   width: 90%;
   position: relative;
-  top: 25%;
-  left: 10%;
+  top: 0%;
+  left: 0%;
 }
 
 .decisionsimagekc4 {
@@ -3084,15 +3111,15 @@
 }
 
 .oneslider {
-  background-color: #0000;
+  background-color: #5c627b;
   height: auto;
   margin-bottom: 20px;
 }
 
 .decisionsimageonepay, .decisionsimageonepay2, .decisionsimageonepay3 {
-  width: 100%;
+  width: 60%;
   position: relative;
-  left: 20%;
+  left: 15%;
 }
 
 .text-span-5 {
@@ -3185,6 +3212,562 @@
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2rem;
+}
+
+.cell-11 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.quick-stack-9 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.image-43 {
+  width: 75%;
+}
+
+.div-block-13 {
+  width: 100%;
+}
+
+.projectintro {
+  text-align: left;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 70px;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.25rem;
+  line-height: 26px;
+}
+
+.casestudytiitleikea {
+  color: #0058ab;
+  text-align: right;
+  background-color: #0000;
+  width: 100%;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: auto;
+  padding-top: 0%;
+  font-family: PT Sans, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 2.75rem;
+}
+
+.summaryobjikea {
+  color: #0058ab;
+  width: 75%;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.cell-12 {
+  font-family: PT Sans, sans-serif;
+}
+
+.quick-stack-10 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.casestudytiitletether {
+  color: #864eef;
+  text-align: right;
+  background-color: #0000;
+  width: 100%;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: auto;
+  padding-top: 0%;
+  font-family: PT Sans, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 2.75rem;
+}
+
+.summaryobjtether {
+  color: #864eef;
+  width: 75%;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.summaryobjbottomtether {
+  color: #864eef;
+  width: 75%;
+  height: auto;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.slider-5 {
+  background-color: #0000;
+}
+
+.left-arrow-8, .right-arrow-9, .slide-nav-20 {
+  display: none;
+}
+
+.image-44 {
+  width: 60%;
+}
+
+.slider-6 {
+  background-color: #0000;
+  display: none;
+  overflow: visible;
+}
+
+.image-45 {
+  width: 60%;
+  position: relative;
+  left: 14%;
+}
+
+.left-arrow-9, .right-arrow-10, .slide-nav-21 {
+  display: none;
+}
+
+.slide-26 {
+  height: 100%;
+  overflow: hidden;
+}
+
+.mask-5 {
+  overflow: visible;
+}
+
+.image-46, .image-47, .image-48 {
+  width: 60%;
+}
+
+.cell-13 {
+  overflow-wrap: normal;
+}
+
+.slider-7 {
+  background-color: #0000;
+  height: 100%;
+}
+
+.left-arrow-10, .right-arrow-11, .slide-nav-22 {
+  display: none;
+}
+
+.slide-27 {
+  left: auto;
+}
+
+.slider-7tether {
+  background-color: #0000;
+  height: 100%;
+}
+
+.image-49, .image-50 {
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+.casestudytiitlekc {
+  color: #0058ab;
+  text-align: right;
+  background-color: #0000;
+  width: 100%;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: auto;
+  padding-top: 0%;
+  font-family: PT Sans, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 2.75rem;
+}
+
+.summaryobjkc {
+  color: #0058ab;
+  width: 75%;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.casestudytiitleonepay {
+  color: #87bef5;
+  text-align: right;
+  background-color: #0000;
+  width: 100%;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: auto;
+  padding-top: 0%;
+  font-family: PT Sans, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 2.75rem;
+}
+
+.roleonepay {
+  color: #f8f8f9;
+  text-align: right;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  font-family: PT Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.text-span-4onepay {
+  font-size: .75rem;
+  font-weight: 300;
+}
+
+.timelineonepay {
+  color: #f8f8f9;
+  text-align: right;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 0%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+.projectintroonepay {
+  color: #f8f8f9;
+  text-align: left;
+  width: 85%;
+  margin-top: 20px;
+  margin-left: 110px;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.25rem;
+  line-height: 26px;
+}
+
+.summaryobjonepay {
+  color: #87bef5;
+  width: 75%;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.bodycopyonepay {
+  color: #f8f8f9;
+  border-bottom: 1px #e8e4e49e;
+  width: 85%;
+  height: 100%;
+  min-height: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 10%;
+  padding-bottom: 0%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.noteonepay {
+  color: #f8f8f9;
+  text-align: left;
+  width: auto;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  text-decoration: none;
+  display: block;
+}
+
+.listsonepay {
+  color: #f8f8f9;
+  border-bottom: 1px #e8e4e49e;
+  width: 90%;
+  height: 100%;
+  min-height: auto;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  margin-left: 10%;
+  padding-bottom: 0%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2rem;
+  position: relative;
+  left: 0%;
+}
+
+.bodycopystackonepay {
+  color: #f8f8f9;
+  border-bottom: 1px #e8e4e49e;
+  width: 85%;
+  height: auto;
+  min-height: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  padding-bottom: 0%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  position: relative;
+  top: 20%;
+  left: 15%;
+}
+
+.listsstackonepay {
+  color: #f8f8f9;
+  border-bottom: 1px #e8e4e49e;
+  width: 85%;
+  height: 100%;
+  min-height: auto;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  padding-bottom: 0%;
+  font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.case-study-logo-white {
+  vertical-align: baseline;
+  order: -9999;
+  width: 20%;
+  margin-left: 60px;
+  display: inline-flex;
+  position: relative;
+  right: 40%;
+}
+
+.body-ikea {
+  color: #1a1028;
+  background-color: #d4dfeb;
+}
+
+.body-tether {
+  color: #1a1028;
+  background-color: #caedff;
+}
+
+.body-onepay {
+  color: #1a1028;
+  background-color: #1a1028;
+}
+
+.case-study-about-onepay-nav {
+  color: #f5f5f5;
+  background-color: #0000;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  order: 0;
+  align-self: center;
+  margin-right: 2%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+}
+
+.case-study-about-onepay-nav:hover {
+  color: #b1a97b;
+  background-image: none;
+}
+
+.case-study-work-onepay-nav {
+  color: #f5f5f5;
+  background-color: #0000;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  order: 0;
+  align-self: center;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.case-study-work-onepay-nav:hover {
+  color: #b1a97b;
+  background-image: none;
+  align-self: center;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+}
+
+.case-study-about-nav-copy {
+  color: #f5f5f5;
+  background-color: #0000;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  order: 0;
+  align-self: center;
+  margin-right: 2%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+}
+
+.case-study-about-nav-copy:hover {
+  color: #b1a97b;
+  background-image: none;
+}
+
+.linkedin-onepay-footer {
+  color: #e8e4e4;
+  background-color: #0000;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  align-self: center;
+  margin-left: 2%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+}
+
+.linkedin-onepay-footer:hover {
+  color: #e8e4e4;
+  background-image: none;
+}
+
+.email-onepay-footer {
+  color: #e8e4e4;
+  background-color: #0000;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  align-self: center;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+}
+
+.email-onepay-footer:hover {
+  color: #e8e4e4;
+  background-image: none;
+}
+
+.resume-onepay-footer {
+  color: #e8e4e4;
+  background-color: #0000;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  align-self: center;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+}
+
+.resume-onepay-footer:hover {
+  color: #e8e4e4;
+  background-image: none;
+}
+
+.text-span-6 {
+  font-size: 1.3rem;
+  line-height: 1.75rem;
+  text-decoration: underline;
+}
+
+.icon-5-white {
+  color: #f8f8f9;
+  width: 52%;
+  height: 13%;
+}
+
+.body-2-kc {
+  color: #1a1028;
+  background-color: #f5f5f5;
+}
+
+.slider-7-kc {
+  background-color: #0000;
+  height: 100%;
+}
+
+.decisionsimageikea3-copy {
+  width: 100%;
+  position: relative;
+  top: 25%;
+  left: 0%;
+}
+
+.decisionsimagekc2-2, .decisionsimagekc2-1 {
+  width: 90%;
+  position: relative;
+  top: 15%;
+  left: 0%;
+}
+
+.lightbox-link-16 {
+  width: 90%;
+  position: relative;
+  top: 15%;
+}
+
+.lightbox-link-17, .lightbox-link-18 {
+  position: relative;
+  top: 15%;
+}
+
+.image-51 {
+  width: 99.9973%;
+  position: relative;
+  top: 0%;
+}
+
+.lightbox-link-19 {
+  position: relative;
+  top: 25%;
+}
+
+.lightbox-link-20 {
+  position: relative;
+  top: 15%;
+  left: 5%;
+}
+
+.mobile-stack {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3598,7 +4181,7 @@
   }
 
   .slideronepay {
-    background-color: #0000;
+    background-color: #5c627b;
     width: 100%;
     height: 50vh;
     margin-top: 5%;
@@ -3932,9 +4515,15 @@
     line-height: 2.2rem;
   }
 
-  .listsstack, .bodycopystack {
+  .listsstack {
     font-size: 1.5rem;
     line-height: 1.55rem;
+  }
+
+  .bodycopystack {
+    font-size: 1.5rem;
+    line-height: 1.55rem;
+    top: 0%;
   }
 
   .slidertether {
@@ -3961,6 +4550,80 @@
 
   .summaryobjbottom {
     font-size: 1.9rem;
+  }
+
+  .casestudytiitleikea {
+    font-size: 3.75rem;
+  }
+
+  .summaryobjikea {
+    font-size: 1.9rem;
+  }
+
+  .casestudytiitletether {
+    font-size: 3.75rem;
+  }
+
+  .summaryobjtether, .summaryobjbottomtether {
+    font-size: 1.9rem;
+  }
+
+  .casestudytiitlekc {
+    font-size: 3.75rem;
+  }
+
+  .summaryobjkc {
+    font-size: 1.9rem;
+  }
+
+  .casestudytiitleonepay {
+    font-size: 3.75rem;
+  }
+
+  .roleonepay {
+    height: auto;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .text-span-4onepay {
+    font-size: 1rem;
+  }
+
+  .timelineonepay {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .summaryobjonepay {
+    font-size: 1.9rem;
+  }
+
+  .bodycopyonepay {
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  .noteonepay {
+    font-family: Gayathri, Impact, sans-serif;
+    font-size: 1rem;
+  }
+
+  .listsonepay {
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  .bodycopystackonepay, .listsstackonepay {
+    font-size: 1.5rem;
+    line-height: 1.55rem;
+  }
+
+  .icon-5-white {
+    width: 50%;
+    height: 12%;
   }
 }
 
@@ -4426,7 +5089,7 @@
   }
 
   .slideronepay {
-    background-color: #0000;
+    background-color: #5c627b;
     width: 99.9236%;
     height: 50vh;
     margin-top: 5%;
@@ -4841,6 +5504,71 @@
   .summaryobjbottom {
     margin-left: 5%;
     font-size: 2.5rem;
+  }
+
+  .projectintro {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .summaryobjikea, .summaryobjtether, .summaryobjbottomtether, .summaryobjkc {
+    margin-left: 5%;
+    font-size: 2.5rem;
+  }
+
+  .roleonepay {
+    font-size: 1.5rem;
+  }
+
+  .timelineonepay {
+    margin-top: 20px;
+    font-size: 1.25rem;
+  }
+
+  .summaryobjonepay {
+    margin-left: 5%;
+    font-size: 2.5rem;
+  }
+
+  .bodycopyonepay {
+    width: 95%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+
+  .noteonepay {
+    font-family: Gayathri, Impact, sans-serif;
+    font-size: 1rem;
+  }
+
+  .listsonepay {
+    width: 95%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+
+  .bodycopystackonepay {
+    width: 90%;
+    margin-left: 2%;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    top: 0%;
+  }
+
+  .listsstackonepay {
+    width: 100%;
+    margin-left: 2%;
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .icon-5-white {
+    width: 51%;
+    height: 11%;
   }
 }
 
@@ -5484,7 +6212,7 @@
   }
 
   .slideronepay {
-    background-color: #0000;
+    background-color: #5c627b;
     height: 60vh;
     display: block;
   }
@@ -6029,6 +6757,123 @@
     margin-left: 0%;
     font-size: 2.5rem;
   }
+
+  .projectintro {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
+  .casestudytiitleikea {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .summaryobjikea {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    font-size: 2.5rem;
+  }
+
+  .casestudytiitletether {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .summaryobjtether, .summaryobjbottomtether {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    font-size: 2.5rem;
+  }
+
+  .casestudytiitlekc {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .summaryobjkc {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    font-size: 2.5rem;
+  }
+
+  .casestudytiitleonepay {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .roleonepay {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  .text-span-4onepay {
+    font-size: 1.25rem;
+  }
+
+  .timelineonepay {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .projectintroonepay {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
+  .summaryobjonepay {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    font-size: 2.5rem;
+  }
+
+  .bodycopyonepay {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  .noteonepay {
+    margin-left: 2%;
+    padding-top: 1%;
+    font-family: Gayathri, Impact, sans-serif;
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  .listsonepay {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  .bodycopystackonepay {
+    width: 90%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    top: 0%;
+  }
+
+  .listsstackonepay {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  .case-study-logo-white {
+    right: 70%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -6039,6 +6884,10 @@
 
   .email-footer, .linkedin-footer, .resume-footer {
     font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  }
+
+  .logo {
+    left: -25%;
   }
 
   .footer-section {
@@ -6273,7 +7122,7 @@
     grid-row-gap: 0px;
     justify-content: flex-start;
     align-items: center;
-    right: 50%;
+    right: 30%;
   }
 
   .case-study-work-nav, .case-study-work-nav:hover, .case-study-about-nav {
@@ -6621,9 +7470,37 @@
     padding-right: 20px;
   }
 
-  .lists, .listsstack, .bodycopystack, .bodycopystackbottom, .lists2 {
+  .lists {
     margin-left: 0%;
     padding-left: 5%;
+  }
+
+  .listsstack {
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+
+  .bodycopystack {
+    margin-left: 0%;
+    padding-left: 5%;
+    top: 0%;
+  }
+
+  .bodycopystackbottom {
+    margin-left: 0%;
+    padding-left: 5%;
+    top: 15%;
+  }
+
+  .lists2 {
+    margin-left: 0%;
+    padding-left: 5%;
+  }
+
+  .decisionsimageikea2, .decisionsimageikea3 {
+    width: 60%;
+    top: 0%;
+    left: 20%;
   }
 
   .code-embed-large, .code-embed-mobile, .code-embed-mobile-portait {
@@ -6642,11 +7519,111 @@
     line-height: 2rem;
     text-decoration: none;
   }
+
+  .casestudytiitleikea {
+    font-size: 2.75rem;
+  }
+
+  .summaryobjikea {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-decoration: none;
+  }
+
+  .casestudytiitletether {
+    font-size: 2.75rem;
+  }
+
+  .summaryobjtether, .summaryobjbottomtether {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-decoration: none;
+  }
+
+  .slide-27 {
+    left: 0;
+  }
+
+  .image-49 {
+    top: 0%;
+    left: 20%;
+  }
+
+  .image-50 {
+    left: 20%;
+  }
+
+  .casestudytiitlekc {
+    font-size: 2.75rem;
+  }
+
+  .summaryobjkc {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-decoration: none;
+  }
+
+  .casestudytiitleonepay {
+    font-size: 2.75rem;
+  }
+
+  .roleonepay {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .summaryobjonepay {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-decoration: none;
+  }
+
+  .bodycopyonepay {
+    margin-left: 0%;
+    padding-left: 5%;
+  }
+
+  .noteonepay {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+  }
+
+  .listsonepay, .bodycopystackonepay, .listsstackonepay {
+    margin-left: 0%;
+    padding-left: 5%;
+  }
+
+  .case-study-logo-white {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: flex-start;
+    align-items: center;
+    right: 30%;
+  }
+
+  .case-study-about-onepay-nav, .case-study-work-onepay-nav, .case-study-work-onepay-nav:hover, .case-study-about-nav-copy, .linkedin-onepay-footer, .email-onepay-footer, .resume-onepay-footer {
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .work-nav, .about-nav, .home-nav {
     flex: none;
+    font-family: PT Sans, sans-serif;
   }
 
   .nav-section {
@@ -7179,8 +8156,9 @@
   }
 
   .linkedin-nav, .email-nav, .resume-nav {
+    color: #b1a97b;
     flex: none;
-    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+    font-family: PT Sans, sans-serif;
   }
 
   .nav-on-mobile {
@@ -7246,15 +8224,70 @@
     display: none;
   }
 
-  .summaryobjbottom {
+  .summaryobjbottom, .summaryobjikea, .summaryobjtether, .summaryobjbottomtether, .summaryobjkc {
     margin-left: 0%;
     font-size: 1.1rem;
     line-height: 1.5rem;
   }
+
+  .roleonepay {
+    font-size: 1.375rem;
+  }
+
+  .projectintroonepay {
+    margin-left: 60px;
+  }
+
+  .summaryobjonepay {
+    margin-left: 0%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .bodycopyonepay {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    font-size: .9375rem;
+    line-height: 1.5rem;
+  }
+
+  .listsonepay {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    font-size: .9375rem;
+    line-height: 2rem;
+  }
+
+  .bodycopystackonepay {
+    width: 90%;
+    margin-left: 0%;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    top: 0%;
+  }
+
+  .listsstackonepay {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 0%;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+  }
+
+  .case-study-about-onepay-nav, .case-study-work-onepay-nav, .case-study-about-nav-copy {
+    flex: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
-  .work-nav, .about-nav, .home-nav, .email-footer {
+  .work-nav, .about-nav, .home-nav {
+    flex: none;
+    font-family: PT Sans, sans-serif;
+  }
+
+  .email-footer {
     flex: none;
   }
 
@@ -7342,6 +8375,7 @@
   }
 
   .role {
+    text-align: center;
     font-size: .9375rem;
     line-height: 1rem;
   }
@@ -7351,6 +8385,7 @@
   }
 
   .timeline {
+    text-align: center;
     font-size: .75rem;
     line-height: 1rem;
   }
@@ -8162,7 +9197,9 @@
   }
 
   .linkedin-nav, .email-nav, .resume-nav {
+    color: #b1a97b;
     flex: none;
+    font-family: PT Sans, sans-serif;
   }
 
   .nav-on-mobile {
@@ -8203,10 +9240,11 @@
     margin-left: 0%;
     padding-left: 2%;
     font-size: .9375rem;
+    top: 0%;
   }
 
   .slide-nav-19 {
-    margin-bottom: -15px;
+    margin-bottom: 0;
     padding-bottom: 0;
   }
 
@@ -8251,6 +9289,122 @@
     font-size: 1.25rem;
     line-height: 1.5rem;
   }
+
+  .projectintro {
+    margin-left: 20px;
+  }
+
+  .casestudytiitleikea {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .summaryobjikea {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .casestudytiitletether {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .summaryobjtether, .summaryobjbottomtether {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .casestudytiitlekc {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .summaryobjkc {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .casestudytiitleonepay {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .roleonepay {
+    text-align: center;
+    font-size: .9375rem;
+    line-height: 1rem;
+  }
+
+  .timelineonepay {
+    text-align: center;
+    font-size: .75rem;
+    line-height: 1rem;
+  }
+
+  .projectintroonepay {
+    margin-left: 20px;
+  }
+
+  .summaryobjonepay {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .bodycopyonepay {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 2%;
+    font-size: .9375rem;
+  }
+
+  .listsonepay {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 2%;
+    font-size: .9375rem;
+    line-height: 1.75rem;
+  }
+
+  .bodycopystackonepay {
+    width: 98%;
+    height: 100%;
+    margin-left: 0%;
+    padding-left: 0%;
+    font-size: .9375rem;
+  }
+
+  .listsstackonepay {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 2%;
+    font-size: .9375rem;
+  }
+
+  .linkedin-onepay-footer {
+    flex: none;
+    margin-left: 2%;
+  }
+
+  .email-onepay-footer, .resume-onepay-footer {
+    flex: none;
+  }
+
+  .icon-5-white {
+    margin-left: -25%;
+    display: none;
+  }
+
+  .cell-14, .cell-15, .cell-16, .cell-17 {
+    display: none;
+  }
 }
 
 #w-node-_5b6c263a-3172-4c79-a61f-45ec99bbcf4f-3c442d28 {
@@ -8269,13 +9423,19 @@
   display: none;
 }
 
-#w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93 {
+#w-node-eff5fdc3-2740-b912-47f0-b5b844637f8a-47359f93 {
   grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+#w-node-_969f93e2-cb8d-de3f-c0eb-e63c2e6900dc-47359f93 {
+  grid-template-rows: auto;
+  grid-template-columns: 2fr 1fr;
+  display: none;
 }
 
 #w-node-_4f9398b9-a655-e6d0-4ace-f9c67f5394cd-47359f93 {
-  grid-template-rows: auto auto;
+  grid-template-rows: auto;
   grid-template-columns: 1fr;
 }
 
@@ -8284,9 +9444,15 @@
   grid-template-columns: 1fr 1fr;
 }
 
-#w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-4be67fd9 {
+#w-node-b28a175f-53ca-d676-a9dc-2d64801accf0-4be67fd9 {
   grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+#w-node-_617b9546-a5db-9b3b-8f6a-a57b94fa640e-4be67fd9 {
+  grid-template-rows: auto;
+  grid-template-columns: 2fr 1fr;
+  display: none;
 }
 
 #w-node-_9f296dcd-42a2-5f79-e8ed-9f1e9b06523b-4be67fd9, #w-node-_02e56675-0f4a-8674-c2ec-cf38577c33ef-4be67fd9 {
@@ -8295,18 +9461,19 @@
 }
 
 #w-node-a4cfc3f0-a9eb-7513-bcf6-e08345c82393-4be67fd9 {
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr minmax(200px, 1fr);
 }
 
-#w-node-ed50aa57-80e4-7899-9d2d-748d33e2f2f1-4be67fd9 {
+#w-node-_4afc423b-67db-e27a-27b6-fb5a312a6b6c-e4db8f43 {
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 
-#w-node-e472cc21-8fb2-e21d-7dde-871632b15a84-e4db8f43 {
+#w-node-_39eeccd7-5fb9-c757-f599-f0dc3ba24eb2-e4db8f43 {
   grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  display: none;
 }
 
 #w-node-e472cc21-8fb2-e21d-7dde-871632b15ac5-e4db8f43, #w-node-e472cc21-8fb2-e21d-7dde-871632b15ad8-e4db8f43, #w-node-dcf56999-b9a6-6b10-b599-ed31921bb8f5-e4db8f43 {
@@ -8314,52 +9481,43 @@
   grid-template-columns: 1fr 1fr;
 }
 
-#w-node-_325bb433-3b91-8752-d306-ee7584dde20a-187afa52 {
+#w-node-_71390396-4e39-7451-3a8e-13264712e143-187afa52 {
   grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 
-#w-node-_325bb433-3b91-8752-d306-ee7584dde25e-187afa52 {
+#w-node-_5dcb4c9b-5fb4-e822-1c2c-44470968ea74-187afa52 {
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  display: none;
 }
 
-#w-node-_325bb433-3b91-8752-d306-ee7584dde234-187afa52 {
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
-}
-
-#w-node-_325bb433-3b91-8752-d306-ee7584dde236-187afa52, #w-node-_325bb433-3b91-8752-d306-ee7584dde24b-187afa52 {
+#w-node-_325bb433-3b91-8752-d306-ee7584dde25e-187afa52, #w-node-_325bb433-3b91-8752-d306-ee7584dde234-187afa52, #w-node-_325bb433-3b91-8752-d306-ee7584dde24b-187afa52 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (min-width: 1920px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-_39eeccd7-5fb9-c757-f599-f0dc3ba24eb2-e4db8f43 {
     display: none;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-_39eeccd7-5fb9-c757-f599-f0dc3ba24eb2-e4db8f43 {
     display: none;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-_39eeccd7-5fb9-c757-f599-f0dc3ba24eb2-e4db8f43 {
     display: none;
   }
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-_617b9546-a5db-9b3b-8f6a-a57b94fa640e-4be67fd9, #w-node-_5dcb4c9b-5fb4-e822-1c2c-44470968ea74-187afa52 {
     display: none;
-  }
-
-  #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-4be67fd9, #w-node-e472cc21-8fb2-e21d-7dde-871632b15a84-e4db8f43, #w-node-_325bb433-3b91-8752-d306-ee7584dde20a-187afa52 {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -8367,11 +9525,75 @@
   #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
     display: grid;
   }
+
+  #w-node-_617b9546-a5db-9b3b-8f6a-a57b94fa640e-4be67fd9, #w-node-_4afc423b-67db-e27a-27b6-fb5a312a6b6c-e4db8f43 {
+    display: none;
+  }
+
+  #w-node-_39eeccd7-5fb9-c757-f599-f0dc3ba24eb2-e4db8f43 {
+    display: grid;
+  }
+
+  #w-node-_5dcb4c9b-5fb4-e822-1c2c-44470968ea74-187afa52 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-47359f93, #w-node-b8c0e04c-3177-f62d-3934-6d6decec3f80-4be67fd9, #w-node-e472cc21-8fb2-e21d-7dde-871632b15a84-e4db8f43, #w-node-_325bb433-3b91-8752-d306-ee7584dde20a-187afa52 {
+  #w-node-aa26705b-6299-ec22-f509-353c1e0b5aae-3c442d28, #w-node-_14811b34-88c7-abc2-f553-ee9c151e6488-3c442d28 {
     display: grid;
+  }
+
+  #w-node-eff5fdc3-2740-b912-47f0-b5b844637f8a-47359f93 {
+    display: none;
+  }
+
+  #w-node-_969f93e2-cb8d-de3f-c0eb-e63c2e6900dc-47359f93 {
+    grid-template-rows: auto;
+    grid-template-columns: 2fr;
+    display: grid;
+  }
+
+  #w-node-_969f93e2-cb8d-de3f-c0eb-e63c2e6900ed-47359f93 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+  }
+
+  #w-node-b28a175f-53ca-d676-a9dc-2d64801accf0-4be67fd9 {
+    display: none;
+  }
+
+  #w-node-_617b9546-a5db-9b3b-8f6a-a57b94fa640e-4be67fd9 {
+    grid-template-rows: auto;
+    grid-template-columns: 2fr;
+    display: grid;
+  }
+
+  #w-node-_4afc423b-67db-e27a-27b6-fb5a312a6b6c-e4db8f43 {
+    display: none;
+  }
+
+  #w-node-_39eeccd7-5fb9-c757-f599-f0dc3ba24eb2-e4db8f43 {
+    grid-template-rows: auto;
+    grid-template-columns: 2fr;
+    display: grid;
+  }
+
+  #w-node-_39eeccd7-5fb9-c757-f599-f0dc3ba24ec3-e4db8f43 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+  }
+
+  #w-node-_71390396-4e39-7451-3a8e-13264712e143-187afa52 {
+    display: none;
+  }
+
+  #w-node-_5dcb4c9b-5fb4-e822-1c2c-44470968ea74-187afa52 {
+    grid-template-rows: auto;
+    grid-template-columns: 2fr;
+    display: grid;
+  }
+
+  #w-node-_5dcb4c9b-5fb4-e822-1c2c-44470968ea87-187afa52 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
 
