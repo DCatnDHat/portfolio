@@ -8588,8 +8588,10 @@
 
   .case-study-nav-section {
     flex-flow: row;
-    margin-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-left: 0%;
+    padding-right: 10px;
   }
 
   .breadcrumb-nav {
@@ -8597,7 +8599,7 @@
     grid-row-gap: 0px;
     flex-flow: wrap;
     justify-content: flex-end;
-    width: 70%;
+    width: 90%;
     margin-left: 5%;
   }
 
@@ -9404,6 +9406,18 @@
 
   .cell-14, .cell-15, .cell-16, .cell-17 {
     display: none;
+  }
+
+  .image-52 {
+    display: block;
+  }
+
+  .image-53 {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 35%;
   }
 }
 
