@@ -283,8 +283,8 @@
   padding-left: 0;
   display: inline-flex;
   position: relative;
-  left: -40%;
-  right: auto;
+  left: auto;
+  right: 40%;
 }
 
 .logo-footer {
@@ -3788,6 +3788,19 @@
   display: none;
 }
 
+.onepay-case-study-nav-section {
+  clear: none;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  flex-flow: row;
+  place-content: flex-start flex-end;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+}
+
 @media screen and (min-width: 1280px) {
   .heading {
     font-size: 2.75rem;
@@ -4651,6 +4664,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .logo {
+    right: 50%;
+  }
+
   .heading {
     font-size: 3rem;
   }
@@ -5589,6 +5606,10 @@
     line-height: 2rem;
   }
 
+  .case-study-logo-white {
+    right: 50%;
+  }
+
   .icon-5-white {
     width: 51%;
     height: 11%;
@@ -5601,6 +5622,10 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .logo {
+    right: 55%;
+  }
+
   .heading {
     font-size: 4rem;
     line-height: 4.5rem;
@@ -6900,7 +6925,7 @@
   }
 
   .case-study-logo-white {
-    right: 70%;
+    right: 55%;
   }
 
   .subhead, .mobilesubhead {
@@ -7155,7 +7180,7 @@
     grid-row-gap: 0px;
     justify-content: flex-start;
     align-items: center;
-    right: 30%;
+    right: 25%;
   }
 
   .case-study-work-nav, .case-study-work-nav:hover, .case-study-about-nav {
@@ -7652,7 +7677,7 @@
     font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   }
 
-  .subhead, .mobilesubhead {
+  .subhead, .mobilesubhead, .onepay-case-study-nav-section {
     width: 100%;
   }
 }
@@ -7669,6 +7694,11 @@
 
   .nav-section:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
     display: flex;
+  }
+
+  .logo:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
+    left: -20%;
+    right: 40%;
   }
 
   .footer-section {
@@ -7887,6 +7917,10 @@
 
   .newprototypeannounce {
     display: none;
+  }
+
+  .case-study-logo {
+    right: 10%;
   }
 
   .case-study-work-nav, .case-study-about-nav {
@@ -8345,6 +8379,10 @@
 
   .nav-section:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
     display: flex;
+  }
+
+  .logo:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
+    display: none;
   }
 
   .footer-section {
@@ -9462,6 +9500,14 @@
     margin-left: 5%;
     margin-right: 5%;
     display: block;
+  }
+
+  .onepay-case-study-nav-section {
+    flex-flow: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0%;
+    padding-right: 10px;
   }
 }
 
