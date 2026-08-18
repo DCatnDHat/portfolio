@@ -110,7 +110,7 @@
 }
 
 .work-nav:where(.w-variant-c3db283a-b217-ebe7-8a80-afc99b589335) {
-  color: #e8e4e4;
+  color: #1a1028;
   text-decoration: underline;
 }
 
@@ -136,6 +136,10 @@
   text-decoration: underline;
 }
 
+.about-nav:where(.w-variant-c3db283a-b217-ebe7-8a80-afc99b589335) {
+  color: #1a1028;
+}
+
 .about-nav:hover {
   color: #b1a97b;
   background-image: none;
@@ -157,6 +161,10 @@
 .home-nav:where(.w-variant-2d97cc15-e231-bcd2-fe53-edf37550fb8c) {
   color: #e8e4e4;
   text-decoration: underline;
+}
+
+.home-nav:where(.w-variant-c3db283a-b217-ebe7-8a80-afc99b589335) {
+  color: #1a1028;
 }
 
 .home-nav:hover {
@@ -3634,24 +3642,6 @@
   font-size: 1.5rem;
 }
 
-.case-study-about-nav-copy {
-  color: #f5f5f5;
-  background-color: #0000;
-  background-image: none;
-  background-repeat: repeat;
-  background-size: auto;
-  order: 0;
-  align-self: center;
-  margin-right: 2%;
-  font-family: PT Sans, sans-serif;
-  font-size: 1.5rem;
-}
-
-.case-study-about-nav-copy:hover {
-  color: #b1a97b;
-  background-image: none;
-}
-
 .linkedin-onepay-footer {
   color: #e8e4e4;
   background-color: #0000;
@@ -3799,6 +3789,89 @@
   padding-top: 1%;
   padding-bottom: 1%;
   display: flex;
+}
+
+.logo-dark {
+  vertical-align: baseline;
+  order: -9999;
+  width: 20%;
+  margin-left: 60px;
+  padding-left: 0;
+  display: inline-flex;
+  position: relative;
+  left: auto;
+  right: 40%;
+}
+
+.logo-dark:where(.w-variant-c3db283a-b217-ebe7-8a80-afc99b589335) {
+  right: 0%;
+}
+
+.case-study-logo-copy {
+  vertical-align: baseline;
+  order: -9999;
+  width: 20%;
+  margin-left: 60px;
+  display: inline-flex;
+  position: relative;
+  right: 40%;
+}
+
+.case-study-about-nav-white {
+  color: #e8e4e4;
+  background-color: #0000;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  order: 0;
+  align-self: center;
+  margin-right: 2%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+}
+
+.case-study-about-nav-white:hover {
+  color: #b1a97b;
+  background-image: none;
+}
+
+.case-study-work-nav-white {
+  color: #e8e4e4;
+  background-color: #0000;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  order: 0;
+  align-self: center;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.case-study-work-nav-white:hover {
+  color: #b1a97b;
+  background-image: none;
+  align-self: center;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+}
+
+.case-study-about-nav-copy {
+  color: #e8e4e4;
+  background-color: #0000;
+  background-image: none;
+  background-repeat: repeat;
+  background-size: auto;
+  order: 0;
+  align-self: center;
+  margin-right: 2%;
+  font-family: PT Sans, sans-serif;
+  font-size: 1.5rem;
+}
+
+.case-study-about-nav-copy:hover {
+  color: #b1a97b;
+  background-image: none;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5619,6 +5692,10 @@
     font-size: 1.5rem;
     line-height: 30px;
   }
+
+  .logo-dark {
+    right: 50%;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -6932,6 +7009,14 @@
     font-size: 2rem;
     line-height: 40px;
   }
+
+  .logo-dark {
+    right: 55%;
+  }
+
+  .case-study-logo-copy {
+    right: 70%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -7183,7 +7268,17 @@
     right: 25%;
   }
 
-  .case-study-work-nav, .case-study-work-nav:hover, .case-study-about-nav {
+  .case-study-work-nav {
+    color: #1a1028;
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  }
+
+  .case-study-work-nav:hover {
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  }
+
+  .case-study-about-nav {
+    color: #1a1028;
     font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   }
 
@@ -7670,7 +7765,7 @@
     grid-row-gap: 0px;
     justify-content: flex-start;
     align-items: center;
-    right: 30%;
+    right: 25%;
   }
 
   .case-study-about-onepay-nav, .case-study-work-onepay-nav, .case-study-work-onepay-nav:hover, .case-study-about-nav-copy, .linkedin-onepay-footer, .email-onepay-footer, .resume-onepay-footer {
@@ -7679,6 +7774,32 @@
 
   .subhead, .mobilesubhead, .onepay-case-study-nav-section {
     width: 100%;
+  }
+
+  .logo-dark {
+    left: -25%;
+  }
+
+  .case-study-logo-copy {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: flex-start;
+    align-items: center;
+    right: 25%;
+  }
+
+  .case-study-about-nav-white, .case-study-work-nav-white {
+    color: #e8e4e4;
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  }
+
+  .case-study-work-nav-white:hover {
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  }
+
+  .case-study-about-nav-copy {
+    color: #1a1028;
+    font-family: Quicksand Variablefont Wght, Impact, sans-serif;
   }
 }
 
@@ -8347,7 +8468,24 @@
     line-height: 1.25rem;
   }
 
+  .case-study-logo-white {
+    right: 10%;
+  }
+
   .case-study-about-onepay-nav, .case-study-work-onepay-nav, .case-study-about-nav-copy {
+    flex: none;
+  }
+
+  .logo-dark:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
+    left: -20%;
+    right: 40%;
+  }
+
+  .case-study-logo-copy {
+    right: 10%;
+  }
+
+  .case-study-about-nav-white, .case-study-work-nav-white, .case-study-about-nav-copy {
     flex: none;
   }
 }
@@ -9508,6 +9646,10 @@
     margin-right: 5%;
     padding-left: 0%;
     padding-right: 10px;
+  }
+
+  .logo-dark:where(.w-variant-9917deb2-3c08-9043-1124-5534a8a29fcc) {
+    display: none;
   }
 }
 
