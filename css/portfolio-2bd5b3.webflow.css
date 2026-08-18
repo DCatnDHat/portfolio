@@ -86,7 +86,7 @@
 
 .brand {
   clear: none;
-  background-image: url('../images/filler-logo.png');
+  background-image: url('../images/dyani-catori-logo-white.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -196,7 +196,7 @@
 
 .brand-footer {
   clear: none;
-  background-image: url('../images/filler-logo.png');
+  background-image: url('../images/dyani-catori-logo-white.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -321,7 +321,7 @@
 .heading {
   color: #e8e4e4;
   max-width: 100%;
-  margin-top: 100px;
+  margin-top: 75px;
   margin-left: 0%;
   font-family: PT Sans, sans-serif;
   font-size: 2.5rem;
@@ -3770,6 +3770,24 @@
   grid-row-gap: 40px;
 }
 
+.subhead {
+  color: #e8e4e4;
+  font-family: PT Sans, sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  display: block;
+}
+
+.mobilesubhead {
+  color: #b1a97b;
+  font-family: PT Sans, sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   .heading {
     font-size: 2.75rem;
@@ -4624,6 +4642,11 @@
   .icon-5-white {
     width: 50%;
     height: 12%;
+  }
+
+  .subhead, .mobilesubhead {
+    font-size: 1.25rem;
+    line-height: 30px;
   }
 }
 
@@ -5569,6 +5592,11 @@
   .icon-5-white {
     width: 51%;
     height: 11%;
+  }
+
+  .subhead, .mobilesubhead {
+    font-size: 1.5rem;
+    line-height: 30px;
   }
 }
 
@@ -6874,6 +6902,11 @@
   .case-study-logo-white {
     right: 70%;
   }
+
+  .subhead, .mobilesubhead {
+    font-size: 2rem;
+    line-height: 40px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -6896,7 +6929,7 @@
   }
 
   .heading {
-    padding-left: 5%;
+    padding-left: 0%;
     font-weight: 500;
   }
 
@@ -7617,6 +7650,10 @@
 
   .case-study-about-onepay-nav, .case-study-work-onepay-nav, .case-study-work-onepay-nav:hover, .case-study-about-nav-copy, .linkedin-onepay-footer, .email-onepay-footer, .resume-onepay-footer {
     font-family: Quicksand Variablefont Wght, Impact, sans-serif;
+  }
+
+  .subhead, .mobilesubhead {
+    width: 100%;
   }
 }
 
@@ -9168,7 +9205,7 @@
   .heading-2-mobile {
     margin-top: 5%;
     line-height: 2rem;
-    display: none;
+    display: block;
   }
 
   .desktopgrid {
@@ -9418,6 +9455,13 @@
     margin-bottom: 10px;
     position: relative;
     left: 35%;
+  }
+
+  .subhead, .mobilesubhead {
+    width: 95%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
   }
 }
 
